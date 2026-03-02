@@ -35,7 +35,27 @@ CRM CSV → [Step 1: Ingest] → [Step 2: Features] → [Step 3: Lead Ranking]
 | 7 | `pipeline/step7_confidence.py` | Cross-signal confidence adjustments | No |
 | 8 | `pipeline/step8_output.py` | Pydantic validation + JSON serialization | No |
 
+
 All thresholds and weights are centralized in `config.py`. No magic numbers in pipeline files.
+
+---
+
+## Screenshots
+
+### Overview — Key Metrics & Pipeline Latencies
+![Overview](screenshots/overview.png)
+
+### Lead Priority — Ranked Leads with Confidence Scores
+![Lead Priority](screenshots/leads.png)
+
+### Churn Risks — Multi-Factor Risk Analysis
+![Churn Risks](screenshots/churn.png)
+
+### Stalled Deals — Inactivity Alerts
+![Stalled Deals](screenshots/stalled.png)
+
+### Benchmark — DealPilot vs Groq vs Random Baseline
+![Benchmark](screenshots/benchmark.png)
 
 ---
 
