@@ -29,3 +29,11 @@ outputs/*.json
 # Gemini/Cursor
 .gemini/
 .cursor/
+
+# Development artifacts
+test_data.csv
+test_*.csv
+*.test.json
+debug_*.py
+debug_*.json
+scratch_*.py
