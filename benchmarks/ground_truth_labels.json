@@ -1,0 +1,2052 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-28T20:06:29.755935+00:00",
+    "random_seed": 42,
+    "n_records": 200,
+    "label_thresholds": {
+      "high_priority": {
+        "deal_value_min": 100000.0,
+        "email_open_rate_min": 0.5,
+        "meeting_count_min": 3,
+        "eligible_stages": [
+          "Demo",
+          "Proposal",
+          "Negotiation"
+        ]
+      },
+      "stalled": {
+        "min_inactive_days": 14,
+        "excluded_stages": [
+          "Closed Won",
+          "Closed Lost"
+        ]
+      },
+      "churn": {
+        "support_tickets_threshold": 8,
+        "nps_threshold": 4.0,
+        "contract_end_days_threshold": 30,
+        "email_open_rate_threshold": 0.15,
+        "min_conditions": 3
+      }
+    }
+  },
+  "high_priority_leads": [
+    "b02b61c4-a3d7-4628-ace6-6fa2fd5166e6",
+    "c0398710-8976-4334-a281-7efdae849217",
+    "d777a477-4c66-40a8-a013-ac6ededa4e16",
+    "da4bd9ca-eb5c-4467-80ba-cd647a0ecfea",
+    "1a50aec3-aabc-45fa-bfe1-2e47ae9bec36",
+    "13d5f2f7-709b-4d97-864c-04af3d3f3799",
+    "e172b725-db52-4a58-8500-0bc6b20dcb6e",
+    "f6b751f7-9b74-4245-9b1b-c8952af43ab7",
+    "1a16342c-3e2b-4091-a092-f52ad4a057a7",
+    "5cb85aed-f5f6-4c97-aefb-63b11b049863",
+    "b321bf21-4dd8-4b85-b04d-337677fc9703",
+    "687213f9-8d60-4936-8380-2b708d03c91e",
+    "a8c01f05-c478-46f1-b88e-c318c16d83ed"
+  ],
+  "stalled_deals": {
+    "bdd640fb-0667-4ad1-9c80-317fa3b1799d": {
+      "stalled": true,
+      "days_inactive": 14,
+      "stage": "Negotiation"
+    },
+    "e465e150-bd9c-46b3-ad3c-2d6d1a3d1fa7": {
+      "stalled": false,
+      "days_inactive": 35,
+      "stage": "Closed Lost"
+    },
+    "9a1de644-815e-46d1-bb8f-aa1837f8a88b": {
+      "stalled": true,
+      "days_inactive": 17,
+      "stage": "Demo"
+    },
+    "6b65a6a4-8b81-48f6-b38a-088ca65ed389": {
+      "stalled": true,
+      "days_inactive": 86,
+      "stage": "Prospecting"
+    },
+    "c241330b-01a9-471f-9e8a-774bcf36d58b": {
+      "stalled": false,
+      "days_inactive": 11,
+      "stage": "Closed Won"
+    },
+    "f50bea63-371e-4d7b-a7cd-813047229389": {
+      "stalled": false,
+      "days_inactive": 4,
+      "stage": "Negotiation"
+    },
+    "9a8dca03-580d-4b71-98f5-64135be6128e": {
+      "stalled": true,
+      "days_inactive": 27,
+      "stage": "Prospecting"
+    },
+    "ec1b8ca1-f91e-4d4c-9ff4-9b7889463e85": {
+      "stalled": false,
+      "days_inactive": 77,
+      "stage": "Closed Won"
+    },
+    "dc98d2c1-e2ac-472f-9e57-4f7aa0ee89ae": {
+      "stalled": false,
+      "days_inactive": 25,
+      "stage": "Closed Won"
+    },
+    "c5e7ce8a-3a57-4a8e-a948-8d990bbb2599": {
+      "stalled": false,
+      "days_inactive": 89,
+      "stage": "Closed Lost"
+    },
+    "47294739-614f-43d7-99db-3ad0ddd1dfb2": {
+      "stalled": true,
+      "days_inactive": 28,
+      "stage": "Negotiation"
+    },
+    "ab9099a4-35a2-40ae-9af3-05535ec42e08": {
+      "stalled": false,
+      "days_inactive": 35,
+      "stage": "Closed Won"
+    },
+    "2bcfbe01-a28d-4fe3-9bf0-027312476f57": {
+      "stalled": true,
+      "days_inactive": 89,
+      "stage": "Demo"
+    },
+    "b02b61c4-a3d7-4628-ace6-6fa2fd5166e6": {
+      "stalled": true,
+      "days_inactive": 35,
+      "stage": "Proposal"
+    },
+    "0837b8a3-d261-47ab-baa2-e4f90e51f30d": {
+      "stalled": true,
+      "days_inactive": 43,
+      "stage": "Demo"
+    },
+    "e059a0ee-9132-463e-b162-87e4e9c349e0": {
+      "stalled": true,
+      "days_inactive": 48,
+      "stage": "Prospecting"
+    },
+    "24933b83-7577-40a9-a491-f0b2ea1fca65": {
+      "stalled": true,
+      "days_inactive": 44,
+      "stage": "Proposal"
+    },
+    "95a76d79-bf3c-4c06-8343-08bc89fa6a68": {
+      "stalled": false,
+      "days_inactive": 5,
+      "stage": "Proposal"
+    },
+    "2369b584-ff5e-4ff0-bf50-bde4382567b8": {
+      "stalled": true,
+      "days_inactive": 68,
+      "stage": "Negotiation"
+    },
+    "cac5b68c-28f4-4481-a0a0-4dc427209bdf": {
+      "stalled": false,
+      "days_inactive": 10,
+      "stage": "Negotiation"
+    },
+    "405cacec-8774-49a9-b7d2-1e02ff01cf99": {
+      "stalled": true,
+      "days_inactive": 80,
+      "stage": "Proposal"
+    },
+    "c0398710-8976-4334-a281-7efdae849217": {
+      "stalled": true,
+      "days_inactive": 73,
+      "stage": "Proposal"
+    },
+    "74273ca3-287d-46ca-af4c-c69a4b22d308": {
+      "stalled": false,
+      "days_inactive": 8,
+      "stage": "Closed Lost"
+    },
+    "c30ff46e-8026-495f-b8cd-a88b436d76e2": {
+      "stalled": false,
+      "days_inactive": 29,
+      "stage": "Closed Lost"
+    },
+    "d777a477-4c66-40a8-a013-ac6ededa4e16": {
+      "stalled": false,
+      "days_inactive": 10,
+      "stage": "Proposal"
+    },
+    "c754108f-f418-4f3f-8a14-be62295b4715": {
+      "stalled": true,
+      "days_inactive": 48,
+      "stage": "Prospecting"
+    },
+    "e0f3eab0-5cec-4eb5-add9-68311ca35cfb": {
+      "stalled": true,
+      "days_inactive": 81,
+      "stage": "Negotiation"
+    },
+    "15ed6269-1429-4c07-b26b-4776913e4de2": {
+      "stalled": true,
+      "days_inactive": 47,
+      "stage": "Demo"
+    },
+    "a8e56e0c-20de-435d-a031-d750c40db9b4": {
+      "stalled": true,
+      "days_inactive": 85,
+      "stage": "Demo"
+    },
+    "6c52c49f-9b49-4d26-9f57-c59a8715a103": {
+      "stalled": false,
+      "days_inactive": 87,
+      "stage": "Closed Lost"
+    },
+    "4fcca39a-b683-42e6-b37e-a2dfb09b2a5c": {
+      "stalled": true,
+      "days_inactive": 77,
+      "stage": "Prospecting"
+    },
+    "7394988f-847f-49b4-a64d-1bcb702753a1": {
+      "stalled": true,
+      "days_inactive": 68,
+      "stage": "Demo"
+    },
+    "8dcdcd03-969b-4662-8562-8059568cc69b": {
+      "stalled": true,
+      "days_inactive": 20,
+      "stage": "Demo"
+    },
+    "0f1259e0-a18f-46b6-b535-106e122c9a56": {
+      "stalled": true,
+      "days_inactive": 34,
+      "stage": "Negotiation"
+    },
+    "839fbc50-1223-4513-9496-f63cdc1110c1": {
+      "stalled": false,
+      "days_inactive": 71,
+      "stage": "Closed Lost"
+    },
+    "b92da22b-21df-406f-8a0b-3c3336d8393a": {
+      "stalled": false,
+      "days_inactive": 41,
+      "stage": "Closed Lost"
+    },
+    "18d0752b-1825-4c54-b0be-b45f683514f2": {
+      "stalled": true,
+      "days_inactive": 29,
+      "stage": "Prospecting"
+    },
+    "a748dbcf-ac61-4e63-8dde-29a6baa4b71a": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Proposal"
+    },
+    "310c0c00-3fa7-4104-9bf9-0e27dc96925e": {
+      "stalled": true,
+      "days_inactive": 27,
+      "stage": "Prospecting"
+    },
+    "766ecb15-474e-4c19-aef9-12766c006f61": {
+      "stalled": false,
+      "days_inactive": 40,
+      "stage": "Closed Lost"
+    },
+    "db20a56e-dc81-4fe7-8eda-8bbb71710434": {
+      "stalled": true,
+      "days_inactive": 63,
+      "stage": "Negotiation"
+    },
+    "ed2662e9-17e0-41b7-b810-238303c72ba8": {
+      "stalled": false,
+      "days_inactive": 58,
+      "stage": "Closed Lost"
+    },
+    "66aa9385-dd59-4a71-b6b8-24817b3a4e3e": {
+      "stalled": true,
+      "days_inactive": 17,
+      "stage": "Proposal"
+    },
+    "ed3049cf-43e4-48fc-a3f2-ae24fc3d3348": {
+      "stalled": false,
+      "days_inactive": 71,
+      "stage": "Closed Lost"
+    },
+    "8e46d534-c88a-418e-bed4-057dbb026576": {
+      "stalled": true,
+      "days_inactive": 74,
+      "stage": "Proposal"
+    },
+    "bc594585-9445-48c0-8ef8-c2d6f7fd5646": {
+      "stalled": false,
+      "days_inactive": 51,
+      "stage": "Closed Won"
+    },
+    "da4bd9ca-eb5c-4467-80ba-cd647a0ecfea": {
+      "stalled": true,
+      "days_inactive": 17,
+      "stage": "Demo"
+    },
+    "1165e210-9854-4881-918a-9d292f923996": {
+      "stalled": false,
+      "days_inactive": 11,
+      "stage": "Negotiation"
+    },
+    "98326856-9434-4a03-bf07-f81491d63f78": {
+      "stalled": true,
+      "days_inactive": 14,
+      "stage": "Prospecting"
+    },
+    "85d51695-90b2-4633-956b-8c0ca8499b92": {
+      "stalled": false,
+      "days_inactive": 20,
+      "stage": "Closed Lost"
+    },
+    "43ff5011-3d1a-45dd-906e-5a9ab758588d": {
+      "stalled": true,
+      "days_inactive": 76,
+      "stage": "Negotiation"
+    },
+    "c07a30f2-edd4-453b-90f0-fd0a750cab75": {
+      "stalled": true,
+      "days_inactive": 48,
+      "stage": "Negotiation"
+    },
+    "19985f15-ff00-4d4d-9020-59e4ff9ab5c2": {
+      "stalled": true,
+      "days_inactive": 67,
+      "stage": "Negotiation"
+    },
+    "5958a499-eeea-463e-a1e8-ac6843e42caf": {
+      "stalled": false,
+      "days_inactive": 1,
+      "stage": "Closed Won"
+    },
+    "d5704f32-702c-4d20-a862-18b848f4ef12": {
+      "stalled": false,
+      "days_inactive": 14,
+      "stage": "Closed Lost"
+    },
+    "aaf91531-0200-41f0-8768-a84fa76afde6": {
+      "stalled": false,
+      "days_inactive": 34,
+      "stage": "Closed Won"
+    },
+    "e3c43657-1d8c-4bac-83b4-09ef2260e70f": {
+      "stalled": false,
+      "days_inactive": 43,
+      "stage": "Closed Lost"
+    },
+    "35ebd32d-9ad6-40ab-8821-2ddb45b89cd9": {
+      "stalled": true,
+      "days_inactive": 55,
+      "stage": "Proposal"
+    },
+    "e7c421c7-4049-4b71-bd10-6c6081627cf1": {
+      "stalled": false,
+      "days_inactive": 0,
+      "stage": "Negotiation"
+    },
+    "00e85ece-0b49-452d-86d4-83f3d450281c": {
+      "stalled": false,
+      "days_inactive": 33,
+      "stage": "Closed Lost"
+    },
+    "711c21c9-bdc1-4f1f-a95d-6fbf430f801d": {
+      "stalled": true,
+      "days_inactive": 64,
+      "stage": "Demo"
+    },
+    "e767dcea-b0e6-4969-a213-42b0f1eedba3": {
+      "stalled": false,
+      "days_inactive": 38,
+      "stage": "Closed Lost"
+    },
+    "6e068097-25e9-4977-8d72-48e2951f58d0": {
+      "stalled": false,
+      "days_inactive": 77,
+      "stage": "Closed Won"
+    },
+    "f8e1daa7-cbce-4bde-aede-db07e623a689": {
+      "stalled": true,
+      "days_inactive": 47,
+      "stage": "Demo"
+    },
+    "1a50aec3-aabc-45fa-bfe1-2e47ae9bec36": {
+      "stalled": true,
+      "days_inactive": 69,
+      "stage": "Demo"
+    },
+    "bfddc3d9-9ee3-4c2a-b94d-62046808593f": {
+      "stalled": true,
+      "days_inactive": 76,
+      "stage": "Prospecting"
+    },
+    "ccc56569-f9e8-4369-a999-b735dd56cc94": {
+      "stalled": false,
+      "days_inactive": 2,
+      "stage": "Negotiation"
+    },
+    "550a1b46-ecab-4301-bc8f-7d292dea9493": {
+      "stalled": true,
+      "days_inactive": 39,
+      "stage": "Proposal"
+    },
+    "28c13091-444d-410b-bf87-e362cf8d446a": {
+      "stalled": true,
+      "days_inactive": 30,
+      "stage": "Prospecting"
+    },
+    "eb1fa9f2-d10b-41d0-b317-347038f16a81": {
+      "stalled": false,
+      "days_inactive": 10,
+      "stage": "Prospecting"
+    },
+    "060edf5b-3911-4497-ba43-b2badf0f06cb": {
+      "stalled": false,
+      "days_inactive": 8,
+      "stage": "Negotiation"
+    },
+    "59e4b671-4774-4c58-85f8-bc16f7860b50": {
+      "stalled": false,
+      "days_inactive": 16,
+      "stage": "Closed Won"
+    },
+    "1d870966-0710-4430-b071-d87954c63cd8": {
+      "stalled": false,
+      "days_inactive": 60,
+      "stage": "Closed Lost"
+    },
+    "98b8e4cc-1bc0-44fc-89cb-394243f59a85": {
+      "stalled": true,
+      "days_inactive": 33,
+      "stage": "Demo"
+    },
+    "82ec9f2d-fbf6-416f-9b30-80d56fb78271": {
+      "stalled": false,
+      "days_inactive": 54,
+      "stage": "Closed Won"
+    },
+    "b572f3d0-0b5c-4a6a-8135-7e8c30a900ad": {
+      "stalled": false,
+      "days_inactive": 88,
+      "stage": "Closed Won"
+    },
+    "f0b5156b-b82c-4074-afd5-dea589d7fd6c": {
+      "stalled": false,
+      "days_inactive": 39,
+      "stage": "Closed Lost"
+    },
+    "5487fd4f-ebb7-4385-aa0b-7b14f2e9702d": {
+      "stalled": false,
+      "days_inactive": 83,
+      "stage": "Closed Lost"
+    },
+    "aab97e49-4f2d-4796-81d2-c7de4ce1eb90": {
+      "stalled": true,
+      "days_inactive": 66,
+      "stage": "Negotiation"
+    },
+    "6ba25efe-311c-4eb6-a095-eef68dedf9fb": {
+      "stalled": true,
+      "days_inactive": 31,
+      "stage": "Prospecting"
+    },
+    "67f48ad5-4d0b-4d1a-91b0-e1d99d9262af": {
+      "stalled": true,
+      "days_inactive": 43,
+      "stage": "Prospecting"
+    },
+    "a79ac9aa-9b4e-4c24-9479-e1e6c9277d9b": {
+      "stalled": false,
+      "days_inactive": 70,
+      "stage": "Closed Won"
+    },
+    "cb323e35-7922-4ac2-82dc-4c8e36b5229a": {
+      "stalled": false,
+      "days_inactive": 28,
+      "stage": "Closed Won"
+    },
+    "17e8392a-55ce-45db-9e87-e04ca2086977": {
+      "stalled": true,
+      "days_inactive": 90,
+      "stage": "Prospecting"
+    },
+    "0640be0f-25b8-4d4b-b2fa-2de8ce7ae7f6": {
+      "stalled": true,
+      "days_inactive": 29,
+      "stage": "Prospecting"
+    },
+    "12a4def0-c4bb-47a9-9988-68dd9c7c7377": {
+      "stalled": true,
+      "days_inactive": 42,
+      "stage": "Prospecting"
+    },
+    "624c69b6-b244-45a7-b7e5-848131c681ec": {
+      "stalled": false,
+      "days_inactive": 30,
+      "stage": "Closed Won"
+    },
+    "c03f3538-e485-4aa1-816b-6287b00805cc": {
+      "stalled": false,
+      "days_inactive": 62,
+      "stage": "Closed Lost"
+    },
+    "b227462c-f53d-4330-8dda-24ba2d06e8cf": {
+      "stalled": false,
+      "days_inactive": 16,
+      "stage": "Closed Won"
+    },
+    "cd29a36f-2222-42e1-b4da-aebf1f115b76": {
+      "stalled": false,
+      "days_inactive": 73,
+      "stage": "Closed Won"
+    },
+    "c1581092-f335-4ba3-913a-7052986f9025": {
+      "stalled": true,
+      "days_inactive": 60,
+      "stage": "Demo"
+    },
+    "e827a1b9-d4a0-4e53-ad3e-e1dc81392443": {
+      "stalled": false,
+      "days_inactive": 12,
+      "stage": "Demo"
+    },
+    "3f4b1a70-c074-418e-825a-609f7337c599": {
+      "stalled": false,
+      "days_inactive": 55,
+      "stage": "Closed Lost"
+    },
+    "13d5f2f7-709b-4d97-864c-04af3d3f3799": {
+      "stalled": true,
+      "days_inactive": 52,
+      "stage": "Negotiation"
+    },
+    "269cd696-236c-4b87-94a0-bccb8a476a87": {
+      "stalled": false,
+      "days_inactive": 6,
+      "stage": "Closed Lost"
+    },
+    "6a34c854-1071-4d51-b6c5-9dacb4d7e28e": {
+      "stalled": false,
+      "days_inactive": 82,
+      "stage": "Closed Lost"
+    },
+    "6b8e869f-d538-4b0e-b4f3-193c0ff0a55c": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Prospecting"
+    },
+    "e172b725-db52-4a58-8500-0bc6b20dcb6e": {
+      "stalled": false,
+      "days_inactive": 13,
+      "stage": "Proposal"
+    },
+    "e4429ebb-da7b-4095-a3d6-2a39c0e3befd": {
+      "stalled": true,
+      "days_inactive": 24,
+      "stage": "Demo"
+    },
+    "3875394c-e5d6-46e6-9a6e-c2f5ccc42903": {
+      "stalled": true,
+      "days_inactive": 17,
+      "stage": "Negotiation"
+    },
+    "ab3b4d37-560c-45ee-a38c-254c076e2bba": {
+      "stalled": true,
+      "days_inactive": 35,
+      "stage": "Demo"
+    },
+    "9f4c3b79-fb10-487f-a0ac-3703eb67146a": {
+      "stalled": false,
+      "days_inactive": 9,
+      "stage": "Demo"
+    },
+    "6db99102-a48b-4dbe-957d-94a106f028ff": {
+      "stalled": false,
+      "days_inactive": 12,
+      "stage": "Closed Won"
+    },
+    "53cd6268-610c-4373-8299-9aa40cdf742b": {
+      "stalled": false,
+      "days_inactive": 69,
+      "stage": "Closed Lost"
+    },
+    "473bd358-610e-4a64-a130-1617c2dff335": {
+      "stalled": true,
+      "days_inactive": 30,
+      "stage": "Prospecting"
+    },
+    "0d557b61-8a17-4dfe-bfc0-0dc804f64d86": {
+      "stalled": true,
+      "days_inactive": 62,
+      "stage": "Negotiation"
+    },
+    "c1156d6d-0a4e-4b70-a6d9-64a3f510ab53": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Demo"
+    },
+    "2702878b-9f0f-4a8d-8537-9ff6d6d7b3b8": {
+      "stalled": true,
+      "days_inactive": 48,
+      "stage": "Demo"
+    },
+    "37cc863b-f2a0-4459-9060-4f621d48a071": {
+      "stalled": true,
+      "days_inactive": 33,
+      "stage": "Negotiation"
+    },
+    "f6b751f7-9b74-4245-9b1b-c8952af43ab7": {
+      "stalled": true,
+      "days_inactive": 54,
+      "stage": "Proposal"
+    },
+    "0692dc63-9424-4ed5-9bac-5c154fa03f26": {
+      "stalled": false,
+      "days_inactive": 71,
+      "stage": "Closed Lost"
+    },
+    "b70b3420-f104-4785-a58b-252360141de9": {
+      "stalled": false,
+      "days_inactive": 62,
+      "stage": "Closed Lost"
+    },
+    "1a16342c-3e2b-4091-a092-f52ad4a057a7": {
+      "stalled": true,
+      "days_inactive": 37,
+      "stage": "Demo"
+    },
+    "90e0f4a0-fbdd-4933-8bd5-8bf61efd76e9": {
+      "stalled": true,
+      "days_inactive": 74,
+      "stage": "Prospecting"
+    },
+    "8186a576-11a7-4609-9edd-bbbfa9597663": {
+      "stalled": false,
+      "days_inactive": 7,
+      "stage": "Closed Won"
+    },
+    "5cb85aed-f5f6-4c97-aefb-63b11b049863": {
+      "stalled": false,
+      "days_inactive": 7,
+      "stage": "Proposal"
+    },
+    "f7294951-8591-41d2-bbda-02422d174fc9": {
+      "stalled": false,
+      "days_inactive": 61,
+      "stage": "Closed Won"
+    },
+    "d36357b6-6f81-4f4f-b701-f7bb7bc67e1f": {
+      "stalled": false,
+      "days_inactive": 20,
+      "stage": "Closed Won"
+    },
+    "e1b294de-4767-476c-962f-8a24ef43613c": {
+      "stalled": false,
+      "days_inactive": 10,
+      "stage": "Closed Won"
+    },
+    "561e16d1-6105-416b-ab0e-664e9c3eb2d5": {
+      "stalled": true,
+      "days_inactive": 76,
+      "stage": "Prospecting"
+    },
+    "5ad5cf06-364d-4c87-bcd0-129d2e8d0e87": {
+      "stalled": false,
+      "days_inactive": 30,
+      "stage": "Closed Lost"
+    },
+    "8e485223-46b9-4991-a14e-b70db380c73a": {
+      "stalled": true,
+      "days_inactive": 72,
+      "stage": "Prospecting"
+    },
+    "680bac63-b856-4035-bdc9-829015eabb27": {
+      "stalled": false,
+      "days_inactive": 76,
+      "stage": "Closed Won"
+    },
+    "7da67785-b63b-4dc3-a559-e46379e13cea": {
+      "stalled": false,
+      "days_inactive": 10,
+      "stage": "Closed Won"
+    },
+    "3e493f43-b118-468d-a786-d50638ba8abc": {
+      "stalled": false,
+      "days_inactive": 74,
+      "stage": "Closed Lost"
+    },
+    "6cedd15d-5800-4c02-87ea-7ff58db06746": {
+      "stalled": false,
+      "days_inactive": 40,
+      "stage": "Closed Won"
+    },
+    "1ee34dc4-3b04-4a8b-805b-fdc94e7ed827": {
+      "stalled": true,
+      "days_inactive": 85,
+      "stage": "Demo"
+    },
+    "3108d448-2f65-4afa-b0ae-8f08c31edbbc": {
+      "stalled": true,
+      "days_inactive": 30,
+      "stage": "Proposal"
+    },
+    "c29cfc0c-fa02-4aec-96ef-2ad6b97e6703": {
+      "stalled": true,
+      "days_inactive": 16,
+      "stage": "Negotiation"
+    },
+    "2defe193-5c62-43a2-ba3c-563e4bd6cee6": {
+      "stalled": false,
+      "days_inactive": 38,
+      "stage": "Closed Lost"
+    },
+    "0df56ac6-f96b-448a-8ba6-eab94639447b": {
+      "stalled": false,
+      "days_inactive": 9,
+      "stage": "Proposal"
+    },
+    "df6a8f93-1a43-4f0a-bdaa-39f0c0b6fce2": {
+      "stalled": true,
+      "days_inactive": 79,
+      "stage": "Negotiation"
+    },
+    "2f32751e-5738-411d-b0c2-903f7a8d03aa": {
+      "stalled": false,
+      "days_inactive": 9,
+      "stage": "Prospecting"
+    },
+    "6694c343-10ba-48e3-9276-2bdc1d34d08e": {
+      "stalled": true,
+      "days_inactive": 64,
+      "stage": "Demo"
+    },
+    "cfa701cd-2631-400b-a6d7-94d30db95301": {
+      "stalled": true,
+      "days_inactive": 44,
+      "stage": "Demo"
+    },
+    "9b37a22b-6a8a-416f-83b2-90d08edddfcd": {
+      "stalled": true,
+      "days_inactive": 47,
+      "stage": "Demo"
+    },
+    "4c1f55ab-7156-49ee-a893-be3d7354ea6f": {
+      "stalled": true,
+      "days_inactive": 56,
+      "stage": "Demo"
+    },
+    "19675f06-bd76-4e35-b5c9-b0479c10c572": {
+      "stalled": false,
+      "days_inactive": 38,
+      "stage": "Closed Lost"
+    },
+    "3d67cde9-2834-44c0-94c8-b3b4a911d192": {
+      "stalled": false,
+      "days_inactive": 67,
+      "stage": "Closed Lost"
+    },
+    "b07aa066-7354-45ea-a894-9b8d00af5b3a": {
+      "stalled": false,
+      "days_inactive": 70,
+      "stage": "Closed Lost"
+    },
+    "743b65a2-dc0f-4fcf-b3f6-fe0d48603b32": {
+      "stalled": false,
+      "days_inactive": 13,
+      "stage": "Closed Lost"
+    },
+    "96fc734d-a003-4d28-8a8f-3653c9af18f8": {
+      "stalled": true,
+      "days_inactive": 14,
+      "stage": "Proposal"
+    },
+    "e88da719-2624-4b40-a5cb-63a2398d1ca6": {
+      "stalled": false,
+      "days_inactive": 70,
+      "stage": "Closed Lost"
+    },
+    "9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68": {
+      "stalled": true,
+      "days_inactive": 36,
+      "stage": "Proposal"
+    },
+    "b321bf21-4dd8-4b85-b04d-337677fc9703": {
+      "stalled": true,
+      "days_inactive": 43,
+      "stage": "Demo"
+    },
+    "9918ee46-1497-4658-b010-f7197e695d0d": {
+      "stalled": false,
+      "days_inactive": 81,
+      "stage": "Closed Lost"
+    },
+    "069f14f1-4018-4c6e-9a8c-fa3c5283aac7": {
+      "stalled": false,
+      "days_inactive": 62,
+      "stage": "Closed Won"
+    },
+    "964db03f-9340-4fad-9c4a-d56bd6016237": {
+      "stalled": false,
+      "days_inactive": 11,
+      "stage": "Prospecting"
+    },
+    "0a4c9f7f-9384-4c2b-84fe-acaed248a9a7": {
+      "stalled": true,
+      "days_inactive": 35,
+      "stage": "Negotiation"
+    },
+    "2e76128b-4735-44f9-aa83-bf007135f221": {
+      "stalled": true,
+      "days_inactive": 42,
+      "stage": "Prospecting"
+    },
+    "5553b2fe-6889-403e-9913-f9d3785299f4": {
+      "stalled": true,
+      "days_inactive": 81,
+      "stage": "Demo"
+    },
+    "7ed70ed7-b194-490b-a961-929e546e035a": {
+      "stalled": true,
+      "days_inactive": 56,
+      "stage": "Demo"
+    },
+    "746f7891-0964-4bbf-8cd3-21b0c2b01cfd": {
+      "stalled": false,
+      "days_inactive": 54,
+      "stage": "Closed Lost"
+    },
+    "6778043b-c5c5-437a-b85e-06a11dad09b2": {
+      "stalled": true,
+      "days_inactive": 14,
+      "stage": "Prospecting"
+    },
+    "300568d2-0de0-41a6-a9ca-97d2764414fd": {
+      "stalled": false,
+      "days_inactive": 19,
+      "stage": "Closed Lost"
+    },
+    "445dcc38-341c-4494-8d36-6dfcc28ebd70": {
+      "stalled": true,
+      "days_inactive": 47,
+      "stage": "Prospecting"
+    },
+    "f920264c-0763-4cd0-9f15-c7b67c16128d": {
+      "stalled": false,
+      "days_inactive": 18,
+      "stage": "Closed Won"
+    },
+    "687213f9-8d60-4936-8380-2b708d03c91e": {
+      "stalled": false,
+      "days_inactive": 5,
+      "stage": "Demo"
+    },
+    "a5d04d53-1e12-42e3-b272-92b6762172ed": {
+      "stalled": false,
+      "days_inactive": 5,
+      "stage": "Proposal"
+    },
+    "45ff2c83-b495-4b4e-8245-6fb44ab7706e": {
+      "stalled": true,
+      "days_inactive": 87,
+      "stage": "Demo"
+    },
+    "25074181-8d1f-4540-b4ef-f5453e652603": {
+      "stalled": false,
+      "days_inactive": 13,
+      "stage": "Closed Lost"
+    },
+    "dd30de89-22f2-45f2-a11b-868dbf0d073d": {
+      "stalled": false,
+      "days_inactive": 52,
+      "stage": "Closed Won"
+    },
+    "81fb18b3-c9a7-491f-af2a-e71357021049": {
+      "stalled": false,
+      "days_inactive": 19,
+      "stage": "Closed Lost"
+    },
+    "9475dbc9-9641-4ced-9664-d2644c6e27ff": {
+      "stalled": true,
+      "days_inactive": 22,
+      "stage": "Demo"
+    },
+    "c34b9fbb-8d4a-45b8-951a-c8ea585a0afa": {
+      "stalled": true,
+      "days_inactive": 22,
+      "stage": "Prospecting"
+    },
+    "9261549d-3d22-4c30-b28f-41defb140bc3": {
+      "stalled": true,
+      "days_inactive": 52,
+      "stage": "Proposal"
+    },
+    "7914f8a8-bea4-4f31-9174-00f80b2c782a": {
+      "stalled": false,
+      "days_inactive": 31,
+      "stage": "Closed Lost"
+    },
+    "fb16e5db-a6ea-479e-921c-82f8cada4f80": {
+      "stalled": true,
+      "days_inactive": 89,
+      "stage": "Demo"
+    },
+    "9716108e-f721-49bb-8096-27182051acef": {
+      "stalled": false,
+      "days_inactive": 4,
+      "stage": "Negotiation"
+    },
+    "e912b4bf-86a4-4ae4-9986-b4b270b7e868": {
+      "stalled": true,
+      "days_inactive": 25,
+      "stage": "Demo"
+    },
+    "2784378f-f84f-46b3-a79f-bfafdef57689": {
+      "stalled": true,
+      "days_inactive": 39,
+      "stage": "Proposal"
+    },
+    "65c17795-b155-46bc-9f8d-ed9756abf2f1": {
+      "stalled": false,
+      "days_inactive": 3,
+      "stage": "Demo"
+    },
+    "5110b492-f442-4e0b-a148-4bb3889b78d5": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Demo"
+    },
+    "3c19e71d-1184-45ad-9e11-d2cd0930aef6": {
+      "stalled": false,
+      "days_inactive": 8,
+      "stage": "Proposal"
+    },
+    "1933918c-fa74-4761-af18-c1081723199d": {
+      "stalled": true,
+      "days_inactive": 44,
+      "stage": "Proposal"
+    },
+    "0bc61066-0769-465f-a746-ccb94ca9cf07": {
+      "stalled": false,
+      "days_inactive": 51,
+      "stage": "Closed Won"
+    },
+    "3e83b91f-2544-4fe0-ae41-7d475ff595ea": {
+      "stalled": false,
+      "days_inactive": 42,
+      "stage": "Closed Won"
+    },
+    "deef580f-9c07-4751-9437-45092cd1586a": {
+      "stalled": true,
+      "days_inactive": 33,
+      "stage": "Prospecting"
+    },
+    "3b70b3a1-24a3-4cf2-9549-c931e9af299d": {
+      "stalled": false,
+      "days_inactive": 33,
+      "stage": "Closed Won"
+    },
+    "cdfc6ee0-e61e-4e90-8267-deb3aab612c9": {
+      "stalled": true,
+      "days_inactive": 76,
+      "stage": "Prospecting"
+    },
+    "f1faf665-7115-43f3-92e8-9d1028711733": {
+      "stalled": true,
+      "days_inactive": 40,
+      "stage": "Proposal"
+    },
+    "40066ff2-b0b8-42ef-ac9f-82b9f6478986": {
+      "stalled": false,
+      "days_inactive": 65,
+      "stage": "Closed Won"
+    },
+    "1b4da0fe-7bb3-4605-9a74-3152627b41a1": {
+      "stalled": true,
+      "days_inactive": 73,
+      "stage": "Negotiation"
+    },
+    "b303f438-fe21-40d0-8bbe-4aff9326dffd": {
+      "stalled": false,
+      "days_inactive": 5,
+      "stage": "Proposal"
+    },
+    "90e0b95f-0212-4554-8644-58b46553867d": {
+      "stalled": false,
+      "days_inactive": 0,
+      "stage": "Negotiation"
+    },
+    "e776b886-d534-4e1d-bf29-84f5bec39a37": {
+      "stalled": false,
+      "days_inactive": 87,
+      "stage": "Closed Won"
+    },
+    "a2f963a3-3810-4e66-9a31-b4cccd4b69a9": {
+      "stalled": false,
+      "days_inactive": 85,
+      "stage": "Closed Lost"
+    },
+    "a8c01f05-c478-46f1-b88e-c318c16d83ed": {
+      "stalled": true,
+      "days_inactive": 55,
+      "stage": "Proposal"
+    },
+    "c9e26074-4f16-49a0-8a17-991ea5769411": {
+      "stalled": false,
+      "days_inactive": 42,
+      "stage": "Closed Lost"
+    },
+    "4b8c5bdc-e8dd-4e5a-9712-fb1621a4344f": {
+      "stalled": true,
+      "days_inactive": 84,
+      "stage": "Proposal"
+    },
+    "e05fb8bc-8a16-406c-8958-e75e21d53971": {
+      "stalled": false,
+      "days_inactive": 38,
+      "stage": "Closed Lost"
+    },
+    "e9ff1cae-41c8-4a8c-aa1f-955ad499da99": {
+      "stalled": true,
+      "days_inactive": 85,
+      "stage": "Proposal"
+    },
+    "1d7bc313-cde2-4f1c-96b6-0afcded255d0": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Proposal"
+    },
+    "ad238d36-dc32-4c97-b9c1-e262f76c8ede": {
+      "stalled": true,
+      "days_inactive": 70,
+      "stage": "Proposal"
+    },
+    "ca6a2224-171e-46cc-9da3-6f1b8eac0a33": {
+      "stalled": true,
+      "days_inactive": 53,
+      "stage": "Demo"
+    },
+    "bfbf397b-ac3e-4b0d-9e5b-a13d746cdb77": {
+      "stalled": true,
+      "days_inactive": 86,
+      "stage": "Negotiation"
+    },
+    "3bdbc09e-acc2-46a0-9bbc-91f75f18e583": {
+      "stalled": true,
+      "days_inactive": 78,
+      "stage": "Demo"
+    },
+    "9c2e58de-ea4e-4617-93f8-382b8fb864e4": {
+      "stalled": true,
+      "days_inactive": 51,
+      "stage": "Proposal"
+    },
+    "b379cb1e-e8cd-40cc-b6da-3ca0d2e82f38": {
+      "stalled": true,
+      "days_inactive": 38,
+      "stage": "Prospecting"
+    },
+    "4dead645-0986-4beb-b23e-323d0b9bd934": {
+      "stalled": true,
+      "days_inactive": 55,
+      "stage": "Demo"
+    }
+  },
+  "churn_labels": {
+    "bdd640fb-0667-4ad1-9c80-317fa3b1799d": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "e465e150-bd9c-46b3-ad3c-2d6d1a3d1fa7": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9a1de644-815e-46d1-bb8f-aa1837f8a88b": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "6b65a6a4-8b81-48f6-b38a-088ca65ed389": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "c241330b-01a9-471f-9e8a-774bcf36d58b": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f50bea63-371e-4d7b-a7cd-813047229389": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9a8dca03-580d-4b71-98f5-64135be6128e": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "ec1b8ca1-f91e-4d4c-9ff4-9b7889463e85": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "dc98d2c1-e2ac-472f-9e57-4f7aa0ee89ae": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c5e7ce8a-3a57-4a8e-a948-8d990bbb2599": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "47294739-614f-43d7-99db-3ad0ddd1dfb2": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "ab9099a4-35a2-40ae-9af3-05535ec42e08": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "2bcfbe01-a28d-4fe3-9bf0-027312476f57": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b02b61c4-a3d7-4628-ace6-6fa2fd5166e6": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0837b8a3-d261-47ab-baa2-e4f90e51f30d": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e059a0ee-9132-463e-b162-87e4e9c349e0": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "24933b83-7577-40a9-a491-f0b2ea1fca65": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "95a76d79-bf3c-4c06-8343-08bc89fa6a68": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "2369b584-ff5e-4ff0-bf50-bde4382567b8": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "cac5b68c-28f4-4481-a0a0-4dc427209bdf": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "405cacec-8774-49a9-b7d2-1e02ff01cf99": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "c0398710-8976-4334-a281-7efdae849217": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "74273ca3-287d-46ca-af4c-c69a4b22d308": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "c30ff46e-8026-495f-b8cd-a88b436d76e2": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "d777a477-4c66-40a8-a013-ac6ededa4e16": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c754108f-f418-4f3f-8a14-be62295b4715": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e0f3eab0-5cec-4eb5-add9-68311ca35cfb": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "15ed6269-1429-4c07-b26b-4776913e4de2": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "a8e56e0c-20de-435d-a031-d750c40db9b4": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "6c52c49f-9b49-4d26-9f57-c59a8715a103": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "4fcca39a-b683-42e6-b37e-a2dfb09b2a5c": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "7394988f-847f-49b4-a64d-1bcb702753a1": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "8dcdcd03-969b-4662-8562-8059568cc69b": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "0f1259e0-a18f-46b6-b535-106e122c9a56": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "839fbc50-1223-4513-9496-f63cdc1110c1": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "b92da22b-21df-406f-8a0b-3c3336d8393a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "18d0752b-1825-4c54-b0be-b45f683514f2": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "a748dbcf-ac61-4e63-8dde-29a6baa4b71a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "310c0c00-3fa7-4104-9bf9-0e27dc96925e": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "766ecb15-474e-4c19-aef9-12766c006f61": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "db20a56e-dc81-4fe7-8eda-8bbb71710434": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "ed2662e9-17e0-41b7-b810-238303c72ba8": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "66aa9385-dd59-4a71-b6b8-24817b3a4e3e": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "ed3049cf-43e4-48fc-a3f2-ae24fc3d3348": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "8e46d534-c88a-418e-bed4-057dbb026576": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "bc594585-9445-48c0-8ef8-c2d6f7fd5646": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "da4bd9ca-eb5c-4467-80ba-cd647a0ecfea": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1165e210-9854-4881-918a-9d292f923996": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "98326856-9434-4a03-bf07-f81491d63f78": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "85d51695-90b2-4633-956b-8c0ca8499b92": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "43ff5011-3d1a-45dd-906e-5a9ab758588d": {
+      "churned": true,
+      "conditions_met": 3,
+      "churn_probability_true": 0.75
+    },
+    "c07a30f2-edd4-453b-90f0-fd0a750cab75": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "19985f15-ff00-4d4d-9020-59e4ff9ab5c2": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "5958a499-eeea-463e-a1e8-ac6843e42caf": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "d5704f32-702c-4d20-a862-18b848f4ef12": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "aaf91531-0200-41f0-8768-a84fa76afde6": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e3c43657-1d8c-4bac-83b4-09ef2260e70f": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "35ebd32d-9ad6-40ab-8821-2ddb45b89cd9": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e7c421c7-4049-4b71-bd10-6c6081627cf1": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "00e85ece-0b49-452d-86d4-83f3d450281c": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "711c21c9-bdc1-4f1f-a95d-6fbf430f801d": {
+      "churned": true,
+      "conditions_met": 3,
+      "churn_probability_true": 0.75
+    },
+    "e767dcea-b0e6-4969-a213-42b0f1eedba3": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6e068097-25e9-4977-8d72-48e2951f58d0": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f8e1daa7-cbce-4bde-aede-db07e623a689": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1a50aec3-aabc-45fa-bfe1-2e47ae9bec36": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "bfddc3d9-9ee3-4c2a-b94d-62046808593f": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "ccc56569-f9e8-4369-a999-b735dd56cc94": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "550a1b46-ecab-4301-bc8f-7d292dea9493": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "28c13091-444d-410b-bf87-e362cf8d446a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "eb1fa9f2-d10b-41d0-b317-347038f16a81": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "060edf5b-3911-4497-ba43-b2badf0f06cb": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "59e4b671-4774-4c58-85f8-bc16f7860b50": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1d870966-0710-4430-b071-d87954c63cd8": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "98b8e4cc-1bc0-44fc-89cb-394243f59a85": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "82ec9f2d-fbf6-416f-9b30-80d56fb78271": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b572f3d0-0b5c-4a6a-8135-7e8c30a900ad": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f0b5156b-b82c-4074-afd5-dea589d7fd6c": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "5487fd4f-ebb7-4385-aa0b-7b14f2e9702d": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "aab97e49-4f2d-4796-81d2-c7de4ce1eb90": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6ba25efe-311c-4eb6-a095-eef68dedf9fb": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "67f48ad5-4d0b-4d1a-91b0-e1d99d9262af": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "a79ac9aa-9b4e-4c24-9479-e1e6c9277d9b": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "cb323e35-7922-4ac2-82dc-4c8e36b5229a": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "17e8392a-55ce-45db-9e87-e04ca2086977": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0640be0f-25b8-4d4b-b2fa-2de8ce7ae7f6": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "12a4def0-c4bb-47a9-9988-68dd9c7c7377": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "624c69b6-b244-45a7-b7e5-848131c681ec": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "c03f3538-e485-4aa1-816b-6287b00805cc": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b227462c-f53d-4330-8dda-24ba2d06e8cf": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "cd29a36f-2222-42e1-b4da-aebf1f115b76": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c1581092-f335-4ba3-913a-7052986f9025": {
+      "churned": true,
+      "conditions_met": 4,
+      "churn_probability_true": 1.0
+    },
+    "e827a1b9-d4a0-4e53-ad3e-e1dc81392443": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "3f4b1a70-c074-418e-825a-609f7337c599": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "13d5f2f7-709b-4d97-864c-04af3d3f3799": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "269cd696-236c-4b87-94a0-bccb8a476a87": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6a34c854-1071-4d51-b6c5-9dacb4d7e28e": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "6b8e869f-d538-4b0e-b4f3-193c0ff0a55c": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e172b725-db52-4a58-8500-0bc6b20dcb6e": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e4429ebb-da7b-4095-a3d6-2a39c0e3befd": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "3875394c-e5d6-46e6-9a6e-c2f5ccc42903": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "ab3b4d37-560c-45ee-a38c-254c076e2bba": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "9f4c3b79-fb10-487f-a0ac-3703eb67146a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6db99102-a48b-4dbe-957d-94a106f028ff": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "53cd6268-610c-4373-8299-9aa40cdf742b": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "473bd358-610e-4a64-a130-1617c2dff335": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0d557b61-8a17-4dfe-bfc0-0dc804f64d86": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c1156d6d-0a4e-4b70-a6d9-64a3f510ab53": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "2702878b-9f0f-4a8d-8537-9ff6d6d7b3b8": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "37cc863b-f2a0-4459-9060-4f621d48a071": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f6b751f7-9b74-4245-9b1b-c8952af43ab7": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0692dc63-9424-4ed5-9bac-5c154fa03f26": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b70b3420-f104-4785-a58b-252360141de9": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1a16342c-3e2b-4091-a092-f52ad4a057a7": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "90e0f4a0-fbdd-4933-8bd5-8bf61efd76e9": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "8186a576-11a7-4609-9edd-bbbfa9597663": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "5cb85aed-f5f6-4c97-aefb-63b11b049863": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "f7294951-8591-41d2-bbda-02422d174fc9": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "d36357b6-6f81-4f4f-b701-f7bb7bc67e1f": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e1b294de-4767-476c-962f-8a24ef43613c": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "561e16d1-6105-416b-ab0e-664e9c3eb2d5": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "5ad5cf06-364d-4c87-bcd0-129d2e8d0e87": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "8e485223-46b9-4991-a14e-b70db380c73a": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "680bac63-b856-4035-bdc9-829015eabb27": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "7da67785-b63b-4dc3-a559-e46379e13cea": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "3e493f43-b118-468d-a786-d50638ba8abc": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6cedd15d-5800-4c02-87ea-7ff58db06746": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "1ee34dc4-3b04-4a8b-805b-fdc94e7ed827": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "3108d448-2f65-4afa-b0ae-8f08c31edbbc": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c29cfc0c-fa02-4aec-96ef-2ad6b97e6703": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "2defe193-5c62-43a2-ba3c-563e4bd6cee6": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0df56ac6-f96b-448a-8ba6-eab94639447b": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "df6a8f93-1a43-4f0a-bdaa-39f0c0b6fce2": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "2f32751e-5738-411d-b0c2-903f7a8d03aa": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "6694c343-10ba-48e3-9276-2bdc1d34d08e": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "cfa701cd-2631-400b-a6d7-94d30db95301": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9b37a22b-6a8a-416f-83b2-90d08edddfcd": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "4c1f55ab-7156-49ee-a893-be3d7354ea6f": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "19675f06-bd76-4e35-b5c9-b0479c10c572": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "3d67cde9-2834-44c0-94c8-b3b4a911d192": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "b07aa066-7354-45ea-a894-9b8d00af5b3a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "743b65a2-dc0f-4fcf-b3f6-fe0d48603b32": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "96fc734d-a003-4d28-8a8f-3653c9af18f8": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e88da719-2624-4b40-a5cb-63a2398d1ca6": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b321bf21-4dd8-4b85-b04d-337677fc9703": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9918ee46-1497-4658-b010-f7197e695d0d": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "069f14f1-4018-4c6e-9a8c-fa3c5283aac7": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "964db03f-9340-4fad-9c4a-d56bd6016237": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "0a4c9f7f-9384-4c2b-84fe-acaed248a9a7": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "2e76128b-4735-44f9-aa83-bf007135f221": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "5553b2fe-6889-403e-9913-f9d3785299f4": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "7ed70ed7-b194-490b-a961-929e546e035a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "746f7891-0964-4bbf-8cd3-21b0c2b01cfd": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "6778043b-c5c5-437a-b85e-06a11dad09b2": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "300568d2-0de0-41a6-a9ca-97d2764414fd": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "445dcc38-341c-4494-8d36-6dfcc28ebd70": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f920264c-0763-4cd0-9f15-c7b67c16128d": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "687213f9-8d60-4936-8380-2b708d03c91e": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "a5d04d53-1e12-42e3-b272-92b6762172ed": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "45ff2c83-b495-4b4e-8245-6fb44ab7706e": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "25074181-8d1f-4540-b4ef-f5453e652603": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "dd30de89-22f2-45f2-a11b-868dbf0d073d": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "81fb18b3-c9a7-491f-af2a-e71357021049": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "9475dbc9-9641-4ced-9664-d2644c6e27ff": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "c34b9fbb-8d4a-45b8-951a-c8ea585a0afa": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "9261549d-3d22-4c30-b28f-41defb140bc3": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "7914f8a8-bea4-4f31-9174-00f80b2c782a": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "fb16e5db-a6ea-479e-921c-82f8cada4f80": {
+      "churned": false,
+      "conditions_met": 2,
+      "churn_probability_true": 0.5
+    },
+    "9716108e-f721-49bb-8096-27182051acef": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e912b4bf-86a4-4ae4-9986-b4b270b7e868": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "2784378f-f84f-46b3-a79f-bfafdef57689": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "65c17795-b155-46bc-9f8d-ed9756abf2f1": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "5110b492-f442-4e0b-a148-4bb3889b78d5": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "3c19e71d-1184-45ad-9e11-d2cd0930aef6": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1933918c-fa74-4761-af18-c1081723199d": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "0bc61066-0769-465f-a746-ccb94ca9cf07": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "3e83b91f-2544-4fe0-ae41-7d475ff595ea": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "deef580f-9c07-4751-9437-45092cd1586a": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "3b70b3a1-24a3-4cf2-9549-c931e9af299d": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "cdfc6ee0-e61e-4e90-8267-deb3aab612c9": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "f1faf665-7115-43f3-92e8-9d1028711733": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "40066ff2-b0b8-42ef-ac9f-82b9f6478986": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "1b4da0fe-7bb3-4605-9a74-3152627b41a1": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "b303f438-fe21-40d0-8bbe-4aff9326dffd": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "90e0b95f-0212-4554-8644-58b46553867d": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "e776b886-d534-4e1d-bf29-84f5bec39a37": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "a2f963a3-3810-4e66-9a31-b4cccd4b69a9": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "a8c01f05-c478-46f1-b88e-c318c16d83ed": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "c9e26074-4f16-49a0-8a17-991ea5769411": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "4b8c5bdc-e8dd-4e5a-9712-fb1621a4344f": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e05fb8bc-8a16-406c-8958-e75e21d53971": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "e9ff1cae-41c8-4a8c-aa1f-955ad499da99": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "1d7bc313-cde2-4f1c-96b6-0afcded255d0": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "ad238d36-dc32-4c97-b9c1-e262f76c8ede": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "ca6a2224-171e-46cc-9da3-6f1b8eac0a33": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "bfbf397b-ac3e-4b0d-9e5b-a13d746cdb77": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "3bdbc09e-acc2-46a0-9bbc-91f75f18e583": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "9c2e58de-ea4e-4617-93f8-382b8fb864e4": {
+      "churned": false,
+      "conditions_met": 1,
+      "churn_probability_true": 0.25
+    },
+    "b379cb1e-e8cd-40cc-b6da-3ca0d2e82f38": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    },
+    "4dead645-0986-4beb-b23e-323d0b9bd934": {
+      "churned": false,
+      "conditions_met": 0,
+      "churn_probability_true": 0.0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "include": ["."],
+  "exclude": ["__pycache__", ".git", "outputs"],
+  "extraPaths": ["."],
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none"
+}

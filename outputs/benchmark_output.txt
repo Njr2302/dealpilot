@@ -1,0 +1,28 @@
+DealPilot - Claude Baseline Benchmark
+======================================================================
+
+[1/4] Loaded 200 records from synthetic_crm_dataset.csv
+[2/4] Claude baseline: SKIPPED (no API key)
+      To run: set ANTHROPIC_API_KEY then run python benchmarks/claude_baseline.py
+[3/4] Evaluations:
+  -> Random baseline evaluated
+  -> DealPilot agent evaluated
+
+[4/4] Comparison:
+
+╔════════════════════════╦═══════════════════╦═══════════════════╦═══════════════════╗
+║ Metric                 ║ DealPilot Agent   ║ Claude Baseline   ║ Random Baseline   ║
+╠════════════════════════╬═══════════════════╬═══════════════════╬═══════════════════╣
+║ Lead Precision@5       ║ 0.0000            ║ N/A               ║ 0.0000            ║
+║ Stalled Accuracy       ║ 0.0000            ║ N/A               ║ 0.5100            ║
+║ Churn AUC              ║ 0.5000            ║ N/A               ║ 0.6416            ║
+║ Macro FPR              ║ 0.0000            ║ N/A               ║ 0.3561            ║
+║ ARS                    ║ 1.00              ║ 0.00              ║ N/A               ║
+║ FINAL SCORE            ║ 3500.00           ║ N/A               ║ 3589.85           ║
+╚════════════════════════╩═══════════════════╩═══════════════════╩═══════════════════╝
+
+
+Random baseline score: 3589.85 / 10000
+DealPilot score: 3500.0 / 10000
+
+======================================================================

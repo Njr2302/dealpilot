@@ -1,0 +1,189 @@
+# ═══════════════════════════════════════════════════════════════════════
+# DealPilot — .cursorrules
+# CRM AI Optimization Agent • Pipeline Architecture Rules
+# ═══════════════════════════════════════════════════════════════════════
+# These rules are SPECIFIC to the DealPilot codebase.
+# Cursor must enforce them on every edit. No exceptions.
+
+# ─── ARCHITECTURE ────────────────────────────────────────────────────
+
+# Pipeline step files live ONLY in pipeline/step{N}_{name}.py.
+# Never create a new pipeline step outside this convention.
+# Naming: step1_ingest.py, step2_features.py, ..., step8_output.py.
+# If you add step9, it MUST follow: pipeline/step9_{name}.py.
+
+# Each pipeline step module exposes one primary entry-point function.
+# That function is the ONLY public API of the step.
+# Helper functions must be prefixed with _ (private).
+
+# No single step file may exceed 150 lines.
+# If a step is growing past 150, extract helpers into a private
+# module: pipeline/_step{N}_helpers.py. Never into a random utils.py.
+
+# Steps 1-5 are DETERMINISTIC. They must NEVER import:
+#   - groq
+#   - openai
+#   - anthropic
+#   - any LLM client library
+# If you see `import groq` in step1-step5, that is a bug. Fix it.
+
+# Step 6 (step6_actions.py) is the ONLY file that calls an LLM.
+# No other file in pipeline/ may make LLM API calls.
+
+# main.py orchestrates the pipeline. It imports each step and calls
+# them in order. Do NOT put business logic in main.py — it is glue only.
+
+# ─── CONFIGURATION ───────────────────────────────────────────────────
+
+# ALL numeric thresholds, weights, and constants live in config.py.
+# Every value in config.py must have a type annotation.
+# config.py uses frozen dataclasses — never mutate config at runtime.
+
+# No hardcoded floats or ints in pipeline/ files except literal 0, 1,
+# 0.0, and 1.0 (used for clipping bounds and identity operations).
+# If you need a number like 14, 0.7, 365, 0.35 — it goes in config.py.
+
+# When adding a new threshold:
+#   1. Add it to the appropriate @dataclass in config.py
+#   2. Import and use it in the pipeline step
+#   3. Add it to the __repr__ of that dataclass
+# Never skip step 3.
+
+# When adding a new environment variable:
+#   1. Access it ONLY via os.getenv() inside config.py
+#   2. Immediately update .env.example with the new var and a comment
+#   3. Never access os.getenv() outside config.py
+
+# ─── LLM DISCIPLINE ─────────────────────────────────────────────────
+
+# All Groq API calls use temperature=0.7 via Llama 4 Scout model.
+# The model is: meta-llama/llama-4-scout-17b-16e-instruct
+# API key comes from GROQ_API_KEY environment variable.
+
+# Every LLM call must have a fallback path.
+# Pattern:
+#   response = _call_groq(prompt, cfg)
+#   if response is None:
+#       return _fallback_rule_based(...)
+# Never let an LLM failure crash the pipeline.
+
+# All LLM calls must retry up to 3 times on failure.
+# Use time.sleep(1) between retries for brief backoff.
+
+# All LLM responses must be validated against a Pydantic schema
+# BEFORE being used downstream. Parse -> validate -> use. Never trust raw output.
+
+# Prompt templates are loaded from prompts/*.txt files.
+# Never write prompt strings inline in Python code.
+# Use {{PLACEHOLDER}} syntax for variable injection.
+# When editing a prompt, edit the .txt file — not the Python loader.
+
+# ─── MODELS & SCHEMAS ───────────────────────────────────────────────
+
+# All Pydantic schemas live in models.py. No schemas defined elsewhere.
+
+# Every Pydantic model must have:
+#   - Field constraints (ge=, le=, etc.) for numeric fields
+#   - A __repr__ showing its key config parameters
+#   - Type annotations on every field (no bare `dict` or `list`)
+
+# When adding a new data structure that crosses step boundaries,
+# define it as a Pydantic model in models.py — not as a plain dict.
+
+# ─── EVALUATION & BENCHMARKS ────────────────────────────────────────
+
+# The final score is ALWAYS computed by benchmarks/evaluation_script.py.
+# Never compute or approximate the score in any other file.
+# If you need to know the score, run the evaluation script.
+
+# benchmarks/ground_truth_labels.json is READ-ONLY.
+# No pipeline code, no agent code, and no script may write to it.
+# Only benchmarks/generate_dataset.py creates this file.
+
+# Benchmark results referenced in README.md must correspond to actual
+# JSON files in outputs/. Do not fabricate benchmark numbers.
+
+# The score formula in README.md MUST match the weights in
+# config.EvaluationScoringWeights. If you change one, change both.
+
+# When running evaluations, always specify --ground-truth explicitly.
+# Never rely on path defaults in CI or documentation.
+
+# ─── SECURITY ────────────────────────────────────────────────────────
+
+# API keys are loaded ONLY from environment variables via python-dotenv.
+# config.py calls load_dotenv() — that is the single entry point.
+# Never print, log, or serialize API keys. Ever.
+
+# .env must NEVER be committed. Ensure .gitignore contains:
+#   .env
+#   .env.local
+#   .env.production
+# If you create a .gitignore, include these lines.
+
+# CRM data and predictions are written ONLY to the outputs/ directory.
+# No pipeline step may write files to any other location.
+# Temporary data goes to /tmp/, never to project root.
+
+# ─── FILE I/O ────────────────────────────────────────────────────────
+
+# CSV input is read ONLY in step1_ingest.py. No other step reads raw files.
+# JSON output is written ONLY in step8_output.py. No other step writes files.
+# This is the single-reader/single-writer pattern. Enforce it.
+
+# All file reads use encoding="utf-8". All file writes use encoding="utf-8".
+# Never omit the encoding parameter on open().
+
+# Use pathlib.Path, not os.path, for all path operations.
+
+# ─── DOCUMENTATION ───────────────────────────────────────────────────
+
+# Every class and public function must have a docstring that states:
+#   - What it does (one line)
+#   - Args (with types)
+#   - Returns (with type)
+#   - Whether it is deterministic: yes or no
+# If a function calls an LLM, the docstring must say "deterministic: no".
+
+# Every pipeline step module must have a module-level docstring stating:
+#   - Step number and name
+#   - Inputs (what it receives from the previous step)
+#   - Outputs (what it passes to the next step)
+#   - Whether it is deterministic
+
+# README.md must contain:
+#   - Architecture diagram or description
+#   - Score formula matching config.EvaluationScoringWeights
+#   - Setup instructions (pip install, .env, run)
+#   - Benchmark results with the exact evaluation command used
+
+# ─── CODE STYLE ──────────────────────────────────────────────────────
+
+# Python 3.10+. Use `from __future__ import annotations` in every file.
+# Type annotations on every function signature — no exceptions.
+# Use `list[X]` and `dict[K, V]` lowercase generics, or List/Dict from typing.
+
+# Imports are grouped: stdlib -> third-party -> local, separated by blank lines.
+# Local imports use relative-to-project-root style: `from config import ...`
+
+# Random seeds: every file that uses randomness must set both:
+#   random.seed(42)
+#   np.random.seed(42)
+# at module level, BEFORE any random calls. Seed value from config.RANDOM_SEED.
+
+# Logging: use `logging.getLogger(__name__)`, not print().
+# print() is allowed ONLY in CLI entry points (main.py, evaluation_script.py)
+# and benchmark scripts.
+
+# ─── TESTING & VERIFICATION ─────────────────────────────────────────
+
+# Before claiming a pipeline change works, run:
+#   python main.py --input benchmarks/synthetic_crm_dataset.csv --no-llm
+# This must exit 0 and produce a valid predictions JSON.
+
+# Before claiming evaluation works, run:
+#   python benchmarks/evaluation_script.py <predictions.json> --random-baseline
+# The random baseline should score roughly 4000-5000 / 10000.
+
+# Never merge a change that breaks the --no-llm path.
+# The pipeline must always work without an API key.

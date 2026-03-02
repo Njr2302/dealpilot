@@ -1,0 +1,201 @@
+account_id,company_name,industry,deal_value,deal_stage,days_since_activity,num_contacts,email_open_rate,meeting_count,contract_end_days,support_tickets,nps_score,arr
+bdd640fb-0667-4ad1-9c80-317fa3b1799d,Sanchez-Taylor,SaaS,146880.02,Negotiation,14,1,0.08,2,10,12,1.5,179055.7
+e465e150-bd9c-46b3-ad3c-2d6d1a3d1fa7,"Miller, Henderson and Johnson",HealthTech,221551.92,Closed Lost,35,3,0.4186,4,95,2,3.6,224425.35
+9a1de644-815e-46d1-bb8f-aa1837f8a88b,Hoffman Ltd,FinTech,61071.28,Demo,17,2,0.5819,3,347,6,2.6,78107.91
+6b65a6a4-8b81-48f6-b38a-088ca65ed389,Cole LLC,Retail,134790.79,Prospecting,86,2,0.1922,2,349,3,3.7,112099.99
+c241330b-01a9-471f-9e8a-774bcf36d58b,Wolfe LLC,Manufacturing,157266.68,Closed Won,11,1,0.4882,2,272,4,7.1,210719.93
+f50bea63-371e-4d7b-a7cd-813047229389,Garcia-James,SaaS,215439.65,Negotiation,4,4,0.4466,4,-15,0,7.1,287084.01
+9a8dca03-580d-4b71-98f5-64135be6128e,Roman-Blair,HealthTech,51699.59,Prospecting,27,5,0.3339,4,89,2,,70605.32
+ec1b8ca1-f91e-4d4c-9ff4-9b7889463e85,Miller-Carter,FinTech,169143.1,Closed Won,77,4,0.6834,2,-17,0,2.9,175288.17
+dc98d2c1-e2ac-472f-9e57-4f7aa0ee89ae,Ray-Bush,Retail,144668.95,Closed Won,25,5,0.1926,3,336,1,4.1,130408.41
+c5e7ce8a-3a57-4a8e-a948-8d990bbb2599,Galloway-Wyatt,Manufacturing,32161.3,Closed Lost,89,1,0.1144,4,249,3,6.4,40982.99
+47294739-614f-43d7-99db-3ad0ddd1dfb2,Reid-Diaz,SaaS,227541.63,Negotiation,28,1,0.08,6,10,12,1.5,266395.59
+ab9099a4-35a2-40ae-9af3-05535ec42e08,Miles-Sutton,HealthTech,184509.88,Closed Won,35,1,0.6269,3,-27,5,,233303.75
+2bcfbe01-a28d-4fe3-9bf0-027312476f57,"Daniel, Martin and Gray",FinTech,32994.73,Demo,89,6,0.3822,6,186,6,4.1,48868.74
+b02b61c4-a3d7-4628-ace6-6fa2fd5166e6,"Robinson, Nguyen and Tate",Retail,215721.61,Proposal,35,4,0.561,6,49,7,7.9,220434.14
+0837b8a3-d261-47ab-baa2-e4f90e51f30d,Morales-Jones,Manufacturing,211758.43,Demo,43,1,0.5052,2,22,0,8.2,219508.07
+e059a0ee-9132-463e-b162-87e4e9c349e0,"Edwards, Rios and Foster",SaaS,64361.43,Prospecting,48,3,0.2268,7,19,1,7.7,67716.81
+24933b83-7577-40a9-a491-f0b2ea1fca65,Taylor-Mcgee,HealthTech,147855.37,Proposal,44,1,0.4027,6,279,1,5.4,136220.04
+95a76d79-bf3c-4c06-8343-08bc89fa6a68,Hurst-Ross,FinTech,271882.56,Proposal,5,1,0.3578,3,343,3,2.9,226261.17
+2369b584-ff5e-4ff0-bf50-bde4382567b8,"Snyder, Campos and Callahan",Retail,312705.97,Negotiation,68,2,0.1299,6,33,3,5.9,437645.42
+cac5b68c-28f4-4481-a0a0-4dc427209bdf,"Henderson, Brown and James",Manufacturing,72529.53,Negotiation,10,2,0.6097,3,252,4,2.7,58948.76
+405cacec-8774-49a9-b7d2-1e02ff01cf99,"Valencia, Smith and Le",SaaS,179482.84,Proposal,80,5,0.08,5,10,12,1.5,195426.73
+c0398710-8976-4334-a281-7efdae849217,Mack-Peterson,HealthTech,121698.07,Proposal,73,3,0.7655,3,68,3,,178339.39
+74273ca3-287d-46ca-af4c-c69a4b22d308,Mckay Ltd,FinTech,161308.36,Closed Lost,8,2,0.4494,4,-7,3,2.7,138543.68
+c30ff46e-8026-495f-b8cd-a88b436d76e2,Romero Inc,Retail,67379.4,Closed Lost,29,1,0.4858,5,365,1,,54439.02
+d777a477-4c66-40a8-a013-ac6ededa4e16,"Romero, Gonzalez and Brooks",Manufacturing,104372.56,Proposal,10,6,0.569,3,89,1,9.5,88889.68
+c754108f-f418-4f3f-8a14-be62295b4715,"Sellers, George and Burns",SaaS,215571.37,Prospecting,48,5,0.0646,1,112,3,9.1,321276.26
+e0f3eab0-5cec-4eb5-add9-68311ca35cfb,Allen-Allen,HealthTech,25071.63,Negotiation,81,3,0.5682,7,156,4,9.0,34836.61
+15ed6269-1429-4c07-b26b-4776913e4de2,"Tucker, Jones and Hodges",FinTech,125728.32,Demo,47,6,0.2293,4,151,0,5.0,110576.84
+a8e56e0c-20de-435d-a031-d750c40db9b4,Arroyo-Martin,Retail,230208.24,Demo,85,5,0.093,5,106,0,5.2,254663.82
+6c52c49f-9b49-4d26-9f57-c59a8715a103,Hickman Ltd,Manufacturing,186674.99,Closed Lost,87,1,0.147,3,301,0,3.0,166072.06
+4fcca39a-b683-42e6-b37e-a2dfb09b2a5c,Carney-Santos,SaaS,64588.65,Prospecting,77,2,0.08,5,10,12,1.5,55681.34
+7394988f-847f-49b4-a64d-1bcb702753a1,Wright Inc,HealthTech,101540.28,Demo,68,4,0.4407,3,343,2,3.8,107564.71
+8dcdcd03-969b-4662-8562-8059568cc69b,Chapman Inc,FinTech,42234.38,Demo,20,5,0.1374,2,206,4,4.8,37328.16
+0f1259e0-a18f-46b6-b535-106e122c9a56,Jones Inc,Retail,151922.84,Negotiation,34,1,0.3736,3,297,2,4.1,132362.43
+839fbc50-1223-4513-9496-f63cdc1110c1,Ramirez Group,Manufacturing,62229.41,Closed Lost,71,5,0.4745,3,82,1,3.5,78910.02
+b92da22b-21df-406f-8a0b-3c3336d8393a,"Johnston, Sanchez and Kennedy",SaaS,11017.46,Closed Lost,41,1,0.6454,8,363,3,6.1,9213.64
+18d0752b-1825-4c54-b0be-b45f683514f2,"Jordan, Henderson and Owens",HealthTech,145864.77,Prospecting,29,2,0.5599,5,-14,3,7.8,130963.32
+a748dbcf-ac61-4e63-8dde-29a6baa4b71a,"Garcia, Powell and Morgan",FinTech,225920.11,Proposal,51,4,0.3375,6,107,2,,322998.48
+310c0c00-3fa7-4104-9bf9-0e27dc96925e,Herrera and Sons,Retail,330319.96,Prospecting,27,3,0.5278,6,260,3,8.1,343353.47
+766ecb15-474e-4c19-aef9-12766c006f61,Baxter Inc,Manufacturing,133497.82,Closed Lost,40,2,0.3407,6,78,5,5.7,195320.44
+db20a56e-dc81-4fe7-8eda-8bbb71710434,"Garcia, Pearson and Fernandez",SaaS,103216.08,Negotiation,63,1,0.08,4,10,12,1.5,111401.31
+ed2662e9-17e0-41b7-b810-238303c72ba8,Martin Group,HealthTech,15419.84,Closed Lost,58,5,0.1565,3,43,1,3.5,17715.2
+66aa9385-dd59-4a71-b6b8-24817b3a4e3e,Martin Inc,FinTech,52784.09,Proposal,17,1,0.6185,5,96,3,8.3,49806.95
+ed3049cf-43e4-48fc-a3f2-ae24fc3d3348,Mitchell-Horton,Retail,107489.04,Closed Lost,71,1,0.5985,3,245,2,,134447.26
+8e46d534-c88a-418e-bed4-057dbb026576,"Higgins, Moore and Phillips",Manufacturing,37134.35,Proposal,74,5,0.7837,4,189,2,2.6,36028.51
+bc594585-9445-48c0-8ef8-c2d6f7fd5646,"Brown, Edwards and Williams",SaaS,405043.42,Closed Won,51,3,0.2481,1,155,3,6.2,447689.86
+da4bd9ca-eb5c-4467-80ba-cd647a0ecfea,"Moore, Yu and Miller",HealthTech,113175.2,Demo,17,1,0.645,3,230,3,9.3,132186.72
+1165e210-9854-4881-918a-9d292f923996,"Hensley, Powell and David",FinTech,153505.38,Negotiation,11,3,0.2662,2,356,2,6.5,194265.0
+98326856-9434-4a03-bf07-f81491d63f78,Harvey Group,Retail,45220.3,Prospecting,14,4,0.6518,3,48,0,6.3,51245.24
+85d51695-90b2-4633-956b-8c0ca8499b92,Donovan-Harris,Manufacturing,108837.13,Closed Lost,20,4,0.1213,2,318,2,7.1,124819.2
+43ff5011-3d1a-45dd-906e-5a9ab758588d,Anderson-Brewer,SaaS,231342.58,Negotiation,76,4,0.08,9,10,12,,315688.42
+c07a30f2-edd4-453b-90f0-fd0a750cab75,Smith PLC,HealthTech,109872.75,Negotiation,48,1,0.1085,6,275,1,6.5,105588.39
+19985f15-ff00-4d4d-9020-59e4ff9ab5c2,Medina PLC,FinTech,105432.6,Negotiation,67,5,0.8206,2,98,2,8.6,143298.54
+5958a499-eeea-463e-a1e8-ac6843e42caf,Suarez LLC,Retail,24176.12,Closed Won,1,4,0.4881,4,318,4,1.7,19643.38
+d5704f32-702c-4d20-a862-18b848f4ef12,"Warner, Carr and Archer",Manufacturing,65249.46,Closed Lost,14,1,0.1496,3,319,3,,87806.79
+aaf91531-0200-41f0-8768-a84fa76afde6,"Evans, Alvarado and Mcmillan",SaaS,62530.08,Closed Won,34,6,0.4808,3,363,1,8.1,61649.66
+e3c43657-1d8c-4bac-83b4-09ef2260e70f,Newton and Sons,HealthTech,97427.29,Closed Lost,43,4,0.4978,7,27,2,5.8,118343.51
+35ebd32d-9ad6-40ab-8821-2ddb45b89cd9,"Cooper, Watts and Farrell",FinTech,239656.72,Proposal,55,2,0.4018,5,50,2,,213344.55
+e7c421c7-4049-4b71-bd10-6c6081627cf1,Davis Group,Retail,120512.28,Negotiation,0,4,0.4901,3,339,4,8.9,125249.68
+00e85ece-0b49-452d-86d4-83f3d450281c,Wise-Walsh,Manufacturing,43424.88,Closed Lost,33,1,0.7384,5,226,3,7.3,35487.28
+711c21c9-bdc1-4f1f-a95d-6fbf430f801d,"Thornton, Hoffman and Rodriguez",SaaS,242191.15,Demo,64,3,0.08,3,10,12,,354956.44
+e767dcea-b0e6-4969-a213-42b0f1eedba3,Gardner LLC,HealthTech,129855.85,Closed Lost,38,3,0.3064,1,297,2,7.4,180674.71
+6e068097-25e9-4977-8d72-48e2951f58d0,Williams LLC,FinTech,146257.44,Closed Won,77,3,0.3369,6,71,1,,123579.68
+f8e1daa7-cbce-4bde-aede-db07e623a689,Nolan and Sons,Retail,98431.68,Demo,47,1,0.2799,1,360,1,6.6,127146.71
+1a50aec3-aabc-45fa-bfe1-2e47ae9bec36,Deleon-Henson,Manufacturing,101735.15,Demo,69,2,0.5671,4,241,4,6.3,130488.1
+bfddc3d9-9ee3-4c2a-b94d-62046808593f,Frost and Sons,SaaS,108188.1,Prospecting,76,3,0.6494,3,135,5,7.7,120805.3
+ccc56569-f9e8-4369-a999-b735dd56cc94,Keith Inc,HealthTech,67029.72,Negotiation,2,3,0.585,4,27,4,9.7,99361.85
+550a1b46-ecab-4301-bc8f-7d292dea9493,Pham-Shields,FinTech,26732.58,Proposal,39,4,0.2419,4,92,2,6.4,38458.94
+28c13091-444d-410b-bf87-e362cf8d446a,"Rodriguez, Brennan and Garrison",Retail,78183.04,Prospecting,30,3,0.3132,4,260,3,9.0,76673.59
+eb1fa9f2-d10b-41d0-b317-347038f16a81,Bailey-Hoover,Manufacturing,194398.06,Prospecting,10,4,0.5802,1,344,3,5.8,270392.02
+060edf5b-3911-4497-ba43-b2badf0f06cb,"Lee, Murphy and Lin",SaaS,56952.07,Negotiation,8,2,0.08,4,10,12,1.5,51475.57
+59e4b671-4774-4c58-85f8-bc16f7860b50,"Hicks, Frazier and Anthony",HealthTech,123161.94,Closed Won,16,5,0.2419,6,35,1,5.6,173375.01
+1d870966-0710-4430-b071-d87954c63cd8,White-Estes,FinTech,228781.69,Closed Lost,60,7,0.7683,5,251,2,,190746.37
+98b8e4cc-1bc0-44fc-89cb-394243f59a85,Reed-Hartman,Retail,48623.84,Demo,33,2,0.4847,4,240,2,5.6,46984.29
+82ec9f2d-fbf6-416f-9b30-80d56fb78271,Cruz PLC,Manufacturing,336779.1,Closed Won,54,5,0.4749,3,78,2,6.4,395217.61
+b572f3d0-0b5c-4a6a-8135-7e8c30a900ad,Smith-Frost,SaaS,214640.67,Closed Won,88,3,0.2124,4,72,4,6.1,218486.04
+f0b5156b-b82c-4074-afd5-dea589d7fd6c,"Mclaughlin, Gonzalez and Reynolds",HealthTech,45493.49,Closed Lost,39,4,0.0609,3,174,3,6.7,66692.65
+5487fd4f-ebb7-4385-aa0b-7b14f2e9702d,"Edwards, Charles and Cortez",FinTech,50600.78,Closed Lost,83,3,0.5456,5,161,4,6.4,46431.78
+aab97e49-4f2d-4796-81d2-c7de4ce1eb90,Nguyen-Terry,Retail,361753.11,Negotiation,66,2,0.3426,2,201,1,9.5,321915.41
+6ba25efe-311c-4eb6-a095-eef68dedf9fb,"Bentley, Byrd and Orr",Manufacturing,53785.95,Prospecting,31,5,0.2099,3,85,2,,51828.06
+67f48ad5-4d0b-4d1a-91b0-e1d99d9262af,"Bass, Torres and Clark",SaaS,138028.46,Prospecting,43,5,0.08,3,10,12,1.5,153937.57
+a79ac9aa-9b4e-4c24-9479-e1e6c9277d9b,Marshall-Ramos,HealthTech,110566.62,Closed Won,70,1,0.3083,7,87,3,4.6,108817.32
+cb323e35-7922-4ac2-82dc-4c8e36b5229a,"Jackson, Miller and Robertson",FinTech,155554.71,Closed Won,28,2,0.4828,6,-27,2,,133254.93
+17e8392a-55ce-45db-9e87-e04ca2086977,Chambers and Sons,Retail,113141.87,Prospecting,90,1,0.4667,3,293,3,5.1,95912.7
+0640be0f-25b8-4d4b-b2fa-2de8ce7ae7f6,Sanchez Group,Manufacturing,56900.91,Prospecting,29,3,0.4706,4,4,3,9.6,47822.16
+12a4def0-c4bb-47a9-9988-68dd9c7c7377,Perry-Soto,SaaS,77499.31,Prospecting,42,2,0.6329,0,6,2,,110097.3
+624c69b6-b244-45a7-b7e5-848131c681ec,Ross-Hernandez,HealthTech,196905.69,Closed Won,30,1,0.2403,4,112,1,3.1,231308.48
+c03f3538-e485-4aa1-816b-6287b00805cc,Osborne and Sons,FinTech,156910.87,Closed Lost,62,4,0.7474,3,79,5,7.2,177813.39
+b227462c-f53d-4330-8dda-24ba2d06e8cf,"Marshall, Grant and Lowery",Retail,38061.86,Closed Won,16,1,0.4528,0,340,3,7.2,44096.77
+cd29a36f-2222-42e1-b4da-aebf1f115b76,Contreras-Travis,Manufacturing,114432.94,Closed Won,73,2,0.5522,1,212,4,4.9,153598.47
+c1581092-f335-4ba3-913a-7052986f9025,Salazar-Ball,SaaS,76256.36,Demo,60,2,0.08,5,10,12,1.5,102354.61
+e827a1b9-d4a0-4e53-ad3e-e1dc81392443,"Griffin, Moore and Hensley",HealthTech,207372.53,Demo,12,4,0.448,10,19,4,5.1,228618.64
+3f4b1a70-c074-418e-825a-609f7337c599,"Ramirez, Strickland and Washington",FinTech,91537.37,Closed Lost,55,4,0.7179,6,151,3,7.1,125630.44
+13d5f2f7-709b-4d97-864c-04af3d3f3799,"Mitchell, Nelson and Flores",Retail,105107.98,Negotiation,52,4,0.6762,3,209,3,5.3,142952.07
+269cd696-236c-4b87-94a0-bccb8a476a87,Reyes and Sons,Manufacturing,175941.19,Closed Lost,6,5,0.1955,3,314,4,9.7,186113.52
+6a34c854-1071-4d51-b6c5-9dacb4d7e28e,Rivera-Owens,SaaS,62417.55,Closed Lost,82,2,0.4222,4,20,1,7.6,61723.12
+6b8e869f-d538-4b0e-b4f3-193c0ff0a55c,Stein-Silva,HealthTech,144936.02,Prospecting,51,5,0.177,3,342,0,7.2,217236.38
+e172b725-db52-4a58-8500-0bc6b20dcb6e,"James, Smith and Bell",FinTech,235861.23,Proposal,13,2,0.5893,4,97,5,1.3,326004.55
+e4429ebb-da7b-4095-a3d6-2a39c0e3befd,Medina-Navarro,Retail,44413.18,Demo,24,2,0.586,4,244,0,7.3,55954.77
+3875394c-e5d6-46e6-9a6e-c2f5ccc42903,Robinson-Graham,Manufacturing,50944.69,Negotiation,17,2,0.0195,1,186,3,5.8,41954.46
+ab3b4d37-560c-45ee-a38c-254c076e2bba,"Yates, Ramsey and Pittman",SaaS,28281.5,Demo,35,2,0.2344,2,206,1,7.2,42051.99
+9f4c3b79-fb10-487f-a0ac-3703eb67146a,"Johnson, Long and Elliott",HealthTech,95940.82,Demo,9,3,0.4743,6,196,3,7.9,114443.58
+6db99102-a48b-4dbe-957d-94a106f028ff,Camacho and Sons,FinTech,301878.87,Closed Won,12,2,0.2564,5,-5,2,5.7,252482.31
+53cd6268-610c-4373-8299-9aa40cdf742b,Gibson LLC,Retail,53386.23,Closed Lost,69,3,0.487,5,-23,5,2.1,60046.27
+473bd358-610e-4a64-a130-1617c2dff335,King-Miller,Manufacturing,216654.41,Prospecting,30,3,0.6571,5,55,4,4.7,303321.69
+0d557b61-8a17-4dfe-bfc0-0dc804f64d86,Walker-Jones,SaaS,138535.13,Negotiation,62,1,0.2807,2,216,5,8.1,152283.74
+c1156d6d-0a4e-4b70-a6d9-64a3f510ab53,Herring and Sons,HealthTech,86481.07,Demo,51,2,0.6834,8,0,2,5.0,99102.87
+2702878b-9f0f-4a8d-8537-9ff6d6d7b3b8,Martinez Ltd,FinTech,71070.89,Demo,48,2,0.2084,3,-29,6,6.9,60321.33
+37cc863b-f2a0-4459-9060-4f621d48a071,Lyons-Wang,Retail,137016.27,Negotiation,33,1,0.3213,3,202,4,6.9,163365.66
+f6b751f7-9b74-4245-9b1b-c8952af43ab7,"Higgins, Strickland and Martin",Manufacturing,238107.63,Proposal,54,1,0.6203,3,326,1,8.4,316152.96
+0692dc63-9424-4ed5-9bac-5c154fa03f26,Johnston-Odonnell,SaaS,21847.46,Closed Lost,71,2,0.2768,2,308,2,6.5,22023.69
+b70b3420-f104-4785-a58b-252360141de9,Jones Ltd,HealthTech,202664.78,Closed Lost,62,2,0.2991,7,49,4,6.4,303349.91
+1a16342c-3e2b-4091-a092-f52ad4a057a7,"Barton, Jefferson and Burke",FinTech,358549.72,Demo,37,2,0.6264,3,81,2,6.4,463190.18
+90e0f4a0-fbdd-4933-8bd5-8bf61efd76e9,Reed Group,Retail,82771.93,Prospecting,74,2,0.0336,4,346,1,,101606.36
+8186a576-11a7-4609-9edd-bbbfa9597663,"Peterson, Atkinson and Short",Manufacturing,62191.64,Closed Won,7,4,0.5082,7,352,1,4.9,71843.06
+5cb85aed-f5f6-4c97-aefb-63b11b049863,"Snow, Stevens and Hernandez",SaaS,358533.19,Proposal,7,2,0.5588,6,-5,5,2.8,383159.84
+f7294951-8591-41d2-bbda-02422d174fc9,"Nelson, Morton and Medina",HealthTech,104975.42,Closed Won,61,2,0.1448,1,227,4,8.3,88862.82
+d36357b6-6f81-4f4f-b701-f7bb7bc67e1f,"Vargas, Morris and Sanchez",FinTech,58865.95,Closed Won,20,7,0.888,4,-1,2,6.9,58440.16
+e1b294de-4767-476c-962f-8a24ef43613c,Sanchez-Marshall,Retail,251952.7,Closed Won,10,3,0.1622,5,65,1,3.3,206050.3
+561e16d1-6105-416b-ab0e-664e9c3eb2d5,Snyder LLC,Manufacturing,152821.74,Prospecting,76,1,0.425,5,4,5,,126429.0
+5ad5cf06-364d-4c87-bcd0-129d2e8d0e87,Peterson-Beard,SaaS,354661.02,Closed Lost,30,2,0.4245,2,176,3,4.9,418140.14
+8e485223-46b9-4991-a14e-b70db380c73a,Black and Sons,HealthTech,213019.15,Prospecting,72,6,0.1097,7,96,2,,236628.2
+680bac63-b856-4035-bdc9-829015eabb27,Peters-Allen,FinTech,35572.72,Closed Won,76,5,0.2975,4,-10,6,7.5,35325.04
+7da67785-b63b-4dc3-a559-e46379e13cea,Mcguire-Davis,Retail,250858.63,Closed Won,10,5,0.2223,2,184,2,8.2,211654.52
+3e493f43-b118-468d-a786-d50638ba8abc,Beck-Wood,Manufacturing,210664.3,Closed Lost,74,4,0.4364,6,259,1,8.9,169838.46
+6cedd15d-5800-4c02-87ea-7ff58db06746,"Pierce, Bell and Chavez",SaaS,26576.61,Closed Won,40,3,0.0684,3,103,2,2.1,27750.62
+1ee34dc4-3b04-4a8b-805b-fdc94e7ed827,"Lee, Wilson and Herrera",HealthTech,198458.51,Demo,85,3,0.2613,4,336,2,8.5,215044.06
+3108d448-2f65-4afa-b0ae-8f08c31edbbc,Rodgers LLC,FinTech,123241.55,Proposal,30,5,0.1672,2,105,2,6.9,119464.46
+c29cfc0c-fa02-4aec-96ef-2ad6b97e6703,"Carlson, Hooper and Wall",Retail,59817.17,Negotiation,16,2,0.5299,5,313,4,4.4,77456.27
+2defe193-5c62-43a2-ba3c-563e4bd6cee6,Smith-Ferguson,Manufacturing,242915.81,Closed Lost,38,3,0.6122,4,204,2,6.9,278301.31
+0df56ac6-f96b-448a-8ba6-eab94639447b,"Carter, Raymond and Little",SaaS,136808.86,Proposal,9,2,0.2239,4,-26,3,,150887.91
+df6a8f93-1a43-4f0a-bdaa-39f0c0b6fce2,Andrews Group,HealthTech,76414.4,Negotiation,79,4,0.2527,2,258,1,,100639.16
+2f32751e-5738-411d-b0c2-903f7a8d03aa,King Group,FinTech,29136.43,Prospecting,9,3,0.1828,7,245,0,1.2,25845.7
+6694c343-10ba-48e3-9276-2bdc1d34d08e,Jones-Soto,Retail,79992.43,Demo,64,1,0.2286,0,105,4,7.4,109190.38
+cfa701cd-2631-400b-a6d7-94d30db95301,"Avery, Miller and Wright",Manufacturing,113399.62,Demo,44,2,0.4445,6,5,1,7.4,127075.28
+9b37a22b-6a8a-416f-83b2-90d08edddfcd,"Gibbs, Perez and Mills",SaaS,26514.55,Demo,47,1,0.516,5,115,4,5.1,25394.76
+4c1f55ab-7156-49ee-a893-be3d7354ea6f,"Branch, Torres and Oliver",HealthTech,41304.88,Demo,56,3,0.3821,2,248,2,8.9,48358.18
+19675f06-bd76-4e35-b5c9-b0479c10c572,Garrett LLC,FinTech,296048.56,Closed Lost,38,4,0.0881,3,283,7,7.8,440175.29
+3d67cde9-2834-44c0-94c8-b3b4a911d192,Arnold and Sons,Retail,418101.07,Closed Lost,67,3,0.2732,5,-26,1,4.2,521970.18
+b07aa066-7354-45ea-a894-9b8d00af5b3a,"Harrison, Johnson and Roberts",Manufacturing,83618.33,Closed Lost,70,1,0.5425,7,123,3,5.8,105668.8
+743b65a2-dc0f-4fcf-b3f6-fe0d48603b32,Mcdaniel LLC,SaaS,37461.25,Closed Lost,13,2,0.5766,5,38,6,3.7,54047.87
+96fc734d-a003-4d28-8a8f-3653c9af18f8,"Lara, Gonzalez and Wilson",HealthTech,170937.76,Proposal,14,2,0.2634,8,24,2,5.9,161241.5
+e88da719-2624-4b40-a5cb-63a2398d1ca6,Serrano-Jones,FinTech,62423.83,Closed Lost,70,1,0.1528,3,49,0,1.6,55526.42
+9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68,"Holloway, Morse and Gonzales",Retail,101450.06,Proposal,36,4,0.3566,6,279,2,7.2,149820.62
+b321bf21-4dd8-4b85-b04d-337677fc9703,Bender-Mason,Manufacturing,417371.44,Demo,43,2,0.7288,4,74,8,3.4,561966.52
+9918ee46-1497-4658-b010-f7197e695d0d,Preston Ltd,SaaS,186157.41,Closed Lost,81,2,0.4327,4,105,1,4.4,254095.49
+069f14f1-4018-4c6e-9a8c-fa3c5283aac7,Perez Ltd,HealthTech,29310.5,Closed Won,62,2,0.2386,5,98,2,7.0,40213.7
+964db03f-9340-4fad-9c4a-d56bd6016237,Key Ltd,FinTech,138244.39,Prospecting,11,5,0.2979,4,294,1,6.9,187691.23
+0a4c9f7f-9384-4c2b-84fe-acaed248a9a7,Ruiz Ltd,Retail,56222.73,Negotiation,35,1,0.5201,4,-8,1,5.5,71954.45
+2e76128b-4735-44f9-aa83-bf007135f221,"Graham, Olsen and Costa",Manufacturing,147476.81,Prospecting,42,1,0.4933,3,364,2,5.5,219188.61
+5553b2fe-6889-403e-9913-f9d3785299f4,Santiago-Hodge,SaaS,210819.39,Demo,81,1,0.2099,3,104,4,9.0,257736.41
+7ed70ed7-b194-490b-a961-929e546e035a,Bates-Morales,HealthTech,79433.53,Demo,56,4,0.3087,2,252,2,4.7,78620.72
+746f7891-0964-4bbf-8cd3-21b0c2b01cfd,Edwards LLC,FinTech,90416.71,Closed Lost,54,3,0.4397,4,257,3,7.8,84266.42
+6778043b-c5c5-437a-b85e-06a11dad09b2,"Bryan, Smith and Booth",Retail,73451.34,Prospecting,14,3,0.3335,3,8,1,7.1,63460.05
+300568d2-0de0-41a6-a9ca-97d2764414fd,"Cox, Avila and Garrett",Manufacturing,147229.53,Closed Lost,19,4,0.3736,6,249,3,8.6,173874.8
+445dcc38-341c-4494-8d36-6dfcc28ebd70,"Anderson, Roberts and Gilmore",SaaS,83495.58,Prospecting,47,2,0.6183,2,268,2,,104747.34
+f920264c-0763-4cd0-9f15-c7b67c16128d,"Lynch, Allen and Moore",HealthTech,400063.82,Closed Won,18,1,0.1378,3,190,2,4.3,364716.01
+687213f9-8d60-4936-8380-2b708d03c91e,Walker Inc,FinTech,129578.36,Demo,5,6,0.507,4,127,6,5.0,135753.08
+a5d04d53-1e12-42e3-b272-92b6762172ed,Jimenez Ltd,Retail,44790.57,Proposal,5,1,0.3482,1,153,0,,43031.14
+45ff2c83-b495-4b4e-8245-6fb44ab7706e,Davenport-Baird,Manufacturing,205821.29,Demo,87,2,0.6752,2,97,3,3.4,293006.96
+25074181-8d1f-4540-b4ef-f5453e652603,Lee-Greene,SaaS,27756.17,Closed Lost,13,3,0.0583,3,151,2,6.2,35736.09
+dd30de89-22f2-45f2-a11b-868dbf0d073d,Hill Group,HealthTech,500000.0,Closed Won,52,2,0.8645,1,287,6,8.2,471510.73
+81fb18b3-c9a7-491f-af2a-e71357021049,Hoover-Campbell,FinTech,81541.69,Closed Lost,19,2,0.6562,3,91,4,,114034.57
+9475dbc9-9641-4ced-9664-d2644c6e27ff,"Burns, Hernandez and Ryan",Retail,209516.32,Demo,22,2,0.6932,1,181,2,4.7,199894.9
+c34b9fbb-8d4a-45b8-951a-c8ea585a0afa,"Bennett, Cantu and Kane",Manufacturing,122372.77,Prospecting,22,5,0.4412,8,347,2,2.2,163558.61
+9261549d-3d22-4c30-b28f-41defb140bc3,Hall-Rowe,SaaS,172529.35,Proposal,52,2,0.5604,1,312,5,7.1,170745.38
+7914f8a8-bea4-4f31-9174-00f80b2c782a,"Mcintyre, James and Mcneil",HealthTech,41210.69,Closed Lost,31,2,0.47,5,106,3,8.6,51326.35
+fb16e5db-a6ea-479e-921c-82f8cada4f80,Simpson Inc,FinTech,33066.96,Demo,89,3,0.0943,7,25,2,,27233.07
+9716108e-f721-49bb-8096-27182051acef,Kane-Sawyer,Retail,180851.39,Negotiation,4,1,0.3331,3,210,3,,270976.84
+e912b4bf-86a4-4ae4-9986-b4b270b7e868,Smith-Thomas,Manufacturing,61202.61,Demo,25,7,0.1193,8,205,2,,75503.72
+2784378f-f84f-46b3-a79f-bfafdef57689,Harrison LLC,SaaS,471335.74,Proposal,39,4,0.4021,6,86,0,6.9,500174.81
+65c17795-b155-46bc-9f8d-ed9756abf2f1,"Miller, Murphy and Craig",HealthTech,66953.61,Demo,3,6,0.6259,3,307,0,7.4,82137.9
+5110b492-f442-4e0b-a148-4bb3889b78d5,"Higgins, Malone and Brennan",FinTech,51743.37,Demo,51,5,0.2514,2,138,3,,73303.85
+3c19e71d-1184-45ad-9e11-d2cd0930aef6,"Cohen, Mitchell and Perez",Retail,59559.9,Proposal,8,5,0.6294,3,365,4,4.8,50441.97
+1933918c-fa74-4761-af18-c1081723199d,"Padilla, Garcia and Jackson",Manufacturing,43829.05,Proposal,44,2,0.2922,2,298,3,3.0,42931.61
+0bc61066-0769-465f-a746-ccb94ca9cf07,Flynn-Carter,SaaS,128753.14,Closed Won,51,2,0.6913,2,317,3,3.1,155339.29
+3e83b91f-2544-4fe0-ae41-7d475ff595ea,"Jenkins, Maldonado and White",HealthTech,243672.13,Closed Won,42,5,0.5122,5,-16,2,8.0,248475.6
+deef580f-9c07-4751-9437-45092cd1586a,Harvey-Allen,FinTech,385881.04,Prospecting,33,4,0.0357,3,61,2,8.8,356108.06
+3b70b3a1-24a3-4cf2-9549-c931e9af299d,Little-Stevens,Retail,40786.64,Closed Won,33,1,0.3681,4,-11,1,5.1,55405.09
+cdfc6ee0-e61e-4e90-8267-deb3aab612c9,Santana-Byrd,Manufacturing,143580.69,Prospecting,76,3,0.2855,1,192,1,8.0,194525.47
+f1faf665-7115-43f3-92e8-9d1028711733,Huerta-Evans,SaaS,93371.13,Proposal,40,2,0.3792,1,193,4,5.7,124407.97
+40066ff2-b0b8-42ef-ac9f-82b9f6478986,Bruce-Gonzalez,HealthTech,73698.02,Closed Won,65,1,0.6599,2,29,2,5.9,61550.38
+1b4da0fe-7bb3-4605-9a74-3152627b41a1,James LLC,FinTech,70305.9,Negotiation,73,2,0.1781,3,67,3,5.2,95687.18
+b303f438-fe21-40d0-8bbe-4aff9326dffd,Johnson-Greer,Retail,84477.64,Proposal,5,4,0.5202,1,332,5,8.9,107076.05
+90e0b95f-0212-4554-8644-58b46553867d,"Osborne, Beltran and Lozano",Manufacturing,211978.57,Negotiation,0,4,0.527,2,236,3,2.4,235287.46
+e776b886-d534-4e1d-bf29-84f5bec39a37,Parsons-Hall,SaaS,500000.0,Closed Won,87,4,0.2425,6,338,1,7.3,663853.83
+a2f963a3-3810-4e66-9a31-b4cccd4b69a9,Oliver Ltd,HealthTech,40379.01,Closed Lost,85,3,0.7118,2,70,4,4.9,44456.09
+a8c01f05-c478-46f1-b88e-c318c16d83ed,"Massey, Fuller and Berger",FinTech,454764.47,Proposal,55,1,0.5438,3,5,0,8.3,490992.44
+c9e26074-4f16-49a0-8a17-991ea5769411,Johnson-Diaz,Retail,106372.03,Closed Lost,42,1,0.2278,7,289,1,,140113.95
+4b8c5bdc-e8dd-4e5a-9712-fb1621a4344f,Burgess-Thompson,Manufacturing,109491.3,Proposal,84,3,0.3418,4,33,3,5.7,104954.54
+e05fb8bc-8a16-406c-8958-e75e21d53971,Schmidt-Mcintyre,SaaS,285111.99,Closed Lost,38,3,0.3568,5,229,1,5.2,389429.91
+e9ff1cae-41c8-4a8c-aa1f-955ad499da99,Coffey-Phillips,HealthTech,45698.19,Proposal,85,2,0.219,3,179,3,6.5,66579.41
+1d7bc313-cde2-4f1c-96b6-0afcded255d0,Mccarty-Taylor,FinTech,75432.7,Proposal,51,1,0.1982,4,326,7,2.2,81216.99
+ad238d36-dc32-4c97-b9c1-e262f76c8ede,"Craig, Sanders and Singleton",Retail,54916.75,Proposal,70,4,0.6901,4,35,0,,75627.51
+ca6a2224-171e-46cc-9da3-6f1b8eac0a33,Smith-Herrera,Manufacturing,126500.2,Demo,53,7,0.675,1,310,2,4.4,101765.03
+bfbf397b-ac3e-4b0d-9e5b-a13d746cdb77,"Baker, James and Little",SaaS,35083.52,Negotiation,86,2,0.4291,2,353,2,,41487.0
+3bdbc09e-acc2-46a0-9bbc-91f75f18e583,Johnson-Henson,HealthTech,120713.94,Demo,78,3,0.2883,1,261,1,4.0,98574.45
+9c2e58de-ea4e-4617-93f8-382b8fb864e4,Holland Ltd,FinTech,57449.6,Proposal,51,4,0.5923,2,250,2,1.7,69620.1
+b379cb1e-e8cd-40cc-b6da-3ca0d2e82f38,Banks-Wilson,Retail,184251.37,Prospecting,38,1,0.5879,3,116,2,7.7,267400.12
+4dead645-0986-4beb-b23e-323d0b9bd934,Wilson-Young,Manufacturing,120780.95,Demo,55,1,0.3185,1,266,2,7.6,160893.83
