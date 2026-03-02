@@ -31,7 +31,7 @@ CRM CSV → [Step 1: Ingest] → [Step 2: Features] → [Step 3: Lead Ranking]
 | 3 | `pipeline/step3_leads.py` | Weighted composite scoring and ranking | No |
 | 4 | `pipeline/step4_churn.py` | Multi-factor churn risk scoring | No |
 | 5 | `pipeline/step5_stalled.py` | Inactivity-based stall detection | No |
-| 6 | `pipeline/step6_actions.py` | Groq-powered action recommendations (Llama 3) | **Yes** |
+| 6 | `pipeline/step6_actions.py` | Groq-powered action recommendations (Llama 4 Scout) | **Yes** |
 | 7 | `pipeline/step7_confidence.py` | Cross-signal confidence adjustments | No |
 | 8 | `pipeline/step8_output.py` | Pydantic validation + JSON serialization | No |
 
@@ -164,13 +164,13 @@ dealpilot/
 │   ├── step3_leads.py             # Weighted lead scoring and ranking
 │   ├── step4_churn.py             # Multi-factor churn prediction
 │   ├── step5_stalled.py           # Inactivity-based stall detection
-│   ├── step6_actions.py           # LLM action generation (Groq Llama 3, temperature=0.7)
+│   ├── step6_actions.py           # LLM action generation (Groq Llama 4 Scout, temperature=0.7)
 │   ├── step7_confidence.py        # Cross-signal confidence adjustments
 │   └── step8_output.py            # Pydantic validation + JSON output
 ├── benchmarks/
 │   ├── generate_dataset.py        # Synthetic CRM data generator (200 records)
 │   ├── evaluation_script.py       # Metric computation and scoring
-│   └── claude_baseline.py         # Groq (Llama 3) baseline benchmark
+│   └── claude_baseline.py         # Groq (Llama 4 Scout) baseline benchmark
 ├── prompts/                       # LLM prompt templates
 ├── outputs/                       # Pipeline outputs (predictions, evals)
 ├── requirements.txt               # Core dependencies
