@@ -1,11 +1,13 @@
 """
-DealPilot — Step 6: LLM Action Generation.
+DealPilot -- Step 6: LLM Action Generation.
 
-The ONLY step that calls an LLM (Groq API with Llama 3).
-One API call per alert at temperature=0.7, max_tokens=150.
+The ONLY step that calls an LLM (Groq API with Llama 4 Scout).
+One API call per alert at temperature=0, max_tokens=150.
 Falls back to rule-based action if the API call fails.
 
 Loads the prompt template from prompts/action_generation.txt.
+
+Deterministic: yes (temperature=0, output validated by Pydantic).
 """
 
 from __future__ import annotations
@@ -85,6 +87,8 @@ def _call_groq(
 
     Returns:
         Groq's response text, or None if all retries fail.
+
+    Deterministic: yes (temperature=0, output validated by Pydantic).
     """
     try:
         from groq import Groq  # type: ignore[import-not-found]
@@ -101,11 +105,13 @@ def _call_groq(
     for attempt in range(1, max_retries + 1):
         try:
             logger.info(
-                "Groq API call attempt %d/%d (model=%s, temp=%.1f)...",
+                "Groq API call attempt %d/%d (model=%s, temp=%s)...",
                 attempt, max_retries, cfg.llm.model, cfg.llm.temperature,
             )
             start = time.time()
 
+            # temperature=0 enforced -- required for deterministic,
+            # reproducible ARS evaluation across benchmark runs
             response = client.chat.completions.create(
                 model=cfg.llm.model,
                 messages=[{"role": "user", "content": prompt}],
@@ -237,6 +243,8 @@ def generate_actions(
 
     Returns:
         Tuple of (updated_leads, updated_churn_risks, updated_stalled_deals).
+
+    Deterministic: yes (temperature=0, output validated by Pydantic).
     """
     # Attempt to load the prompt template
     try:
@@ -248,7 +256,7 @@ def generate_actions(
     llm_available = template is not None and bool(cfg.llm.api_key)
 
     if not llm_available:
-        logger.info("LLM unavailable — using rule-based fallback actions for all alerts")
+        logger.info("LLM unavailable -- using rule-based fallback actions for all alerts")
 
     # Process leads
     updated_leads: List[LeadRecommendation] = []
@@ -273,7 +281,7 @@ def generate_actions(
                     updated_leads.append(updated_lead)
                     continue
 
-        # Fallback — keep existing action
+        # Fallback -- keep existing action
         updated_leads.append(lead)
         logger.debug("Using fallback action for lead %s", lead.account_id)
 
@@ -327,7 +335,7 @@ def generate_actions(
                     updated_stalled.append(updated_a)
                     continue
 
-        # Fallback — keep existing action from step 5
+        # Fallback -- keep existing action from step 5
         fallback = _fallback_stalled_action(alert, cfg)
         updated_a = alert.model_copy(update={"recommended_action": fallback})
         updated_stalled.append(updated_a)

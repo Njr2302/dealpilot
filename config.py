@@ -16,18 +16,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# ── Global Seed ──────────────────────────────────────────────────────────
+# -- Global Seed --------------------------------------------------------------
 
 RANDOM_SEED: int = 42
 
 
-# ── LLM Configuration ───────────────────────────────────────────────────
+# -- LLM Configuration --------------------------------------------------------
 
 @dataclass(frozen=True)
 class LLMConfig:
     """Configuration for the Groq API call in Step 6."""
     model: str = "meta-llama/llama-4-scout-17b-16e-instruct"
-    temperature: float = 0.7
+    temperature: float = 0  # temperature=0 enforced for deterministic output
     max_tokens: int = 150
     api_key: str = field(default_factory=lambda: os.getenv("GROQ_API_KEY", ""))
     prompt_template_path: str = "prompts/action_generation.txt"
@@ -39,7 +39,7 @@ class LLMConfig:
         )
 
 
-# ── Feature Engineering Weights (Step 2) ─────────────────────────────────
+# -- Feature Engineering Weights (Step 2) --------------------------------------
 
 @dataclass(frozen=True)
 class FeatureWeights:
@@ -62,7 +62,7 @@ class FeatureWeights:
         )
 
 
-# ── Lead Scoring Weights (Step 3) ───────────────────────────────────────
+# -- Lead Scoring Weights (Step 3) --------------------------------------------
 
 @dataclass(frozen=True)
 class LeadScoringWeights:
@@ -79,7 +79,7 @@ class LeadScoringWeights:
         )
 
 
-# ── Churn Scoring Weights (Step 4) ──────────────────────────────────────
+# -- Churn Scoring Weights (Step 4) -------------------------------------------
 
 @dataclass(frozen=True)
 class ChurnScoringWeights:
@@ -102,7 +102,7 @@ class ChurnScoringWeights:
         )
 
 
-# ── Stalled Deal Thresholds (Step 5) ────────────────────────────────────
+# -- Stalled Deal Thresholds (Step 5) -----------------------------------------
 
 @dataclass(frozen=True)
 class StalledDealThresholds:
@@ -121,7 +121,7 @@ class StalledDealThresholds:
         )
 
 
-# ── Confidence Adjustment Rules (Step 7) ────────────────────────────────
+# -- Confidence Adjustment Rules (Step 7) ------------------------------------
 
 @dataclass(frozen=True)
 class ConfidenceAdjustmentConfig:
@@ -140,7 +140,7 @@ class ConfidenceAdjustmentConfig:
         )
 
 
-# ── Output Configuration (Step 8) ───────────────────────────────────────
+# -- Output Configuration (Step 8) -------------------------------------------
 
 @dataclass(frozen=True)
 class OutputConfig:
@@ -156,7 +156,7 @@ class OutputConfig:
         )
 
 
-# ── Rule-Based Fallback Actions ─────────────────────────────────────────
+# -- Rule-Based Fallback Actions ----------------------------------------------
 
 @dataclass(frozen=True)
 class FallbackActionRules:
@@ -178,7 +178,7 @@ class FallbackActionRules:
         )
 
 
-# ── Benchmark Label Thresholds ──────────────────────────────────────────
+# -- Benchmark Label Thresholds -----------------------------------------------
 
 @dataclass(frozen=True)
 class BenchmarkLabelThresholds:
@@ -191,7 +191,7 @@ class BenchmarkLabelThresholds:
         default_factory=lambda: ["Demo", "Proposal", "Negotiation"]
     )
 
-    # Churn labeling thresholds (3+ of 4 conditions → churned)
+    # Churn labeling thresholds (3+ of 4 conditions -> churned)
     churn_support_tickets_threshold: int = 8
     churn_nps_threshold: float = 4.0
     churn_contract_end_days_threshold: int = 30
@@ -211,7 +211,7 @@ class BenchmarkLabelThresholds:
             f"churn_conditions>={self.churn_min_conditions})"
         )
 
-# ── Evaluation Scoring Weights ──────────────────────────────────────────
+# -- Evaluation Scoring Weights -----------------------------------------------
 
 @dataclass(frozen=True)
 class EvaluationScoringWeights:
@@ -219,7 +219,7 @@ class EvaluationScoringWeights:
     precision_at_k_values: List[int] = field(default_factory=lambda: [3, 5, 10])
     precision_at_k_primary: int = 5  # Which K is used in the final score
 
-    # Final Score = multiplier × (w1×P@5 + w2×stalled + w3×AUC + w4×(1-FPR) + w5×(ARS/ars_norm))
+    # Final Score = multiplier * (w1*P@5 + w2*stalled + w3*AUC + w4*(1-FPR) + w5*(ARS/ars_norm))
     weight_precision: float = 0.25
     weight_stalled_accuracy: float = 0.20
     weight_churn_auc: float = 0.25
@@ -245,7 +245,7 @@ class EvaluationScoringWeights:
         )
 
 
-# ── Master Configuration ────────────────────────────────────────────────
+# -- Master Configuration ----------------------------------------------------
 
 @dataclass(frozen=True)
 class DealPilotConfig:

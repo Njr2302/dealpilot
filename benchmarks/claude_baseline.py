@@ -66,7 +66,7 @@ FIELD_TRUNCATION_LENGTH: int = 60
 TOP_K_LEADS: int = 5
 MAX_RETRIES: int = 3
 BASELINE_MODEL: str = "meta-llama/llama-4-scout-17b-16e-instruct"
-BASELINE_TEMPERATURE: float = 0.7
+BASELINE_TEMPERATURE: float = 0  # temperature=0 for deterministic benchmark
 BASELINE_MAX_TOKENS: int = 8000  # Must be < 8192 for Groq models
 
 SYSTEM_PROMPT: str = (
