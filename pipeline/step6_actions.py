@@ -157,7 +157,7 @@ def _parse_llm_response(response: str) -> dict:
         # Handle responses wrapped in markdown code blocks
         if text.startswith("```"):
             lines = text.split("\n")
-            json_lines = [l for l in lines if not l.startswith("```")]
+            json_lines = [line for line in lines if not line.startswith("```")]
             text = "\n".join(json_lines)
         parsed = json.loads(text)
 

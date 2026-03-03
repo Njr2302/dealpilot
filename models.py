@@ -14,8 +14,6 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel, Field  # type: ignore[import-not-found]
 
 
-# ── Enums ────────────────────────────────────────────────────────────────
-
 class ActionType(str, enum.Enum):
     """Allowed action types for lead recommendations."""
     FOLLOW_UP = "follow_up"

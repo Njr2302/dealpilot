@@ -213,6 +213,7 @@ class BenchmarkLabelThresholds:
 
 # -- Evaluation Scoring Weights -----------------------------------------------
 
+
 @dataclass(frozen=True)
 class EvaluationScoringWeights:
     """Weights for the final composite score in evaluation_script.py."""
