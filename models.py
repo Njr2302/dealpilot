@@ -6,7 +6,6 @@ Every class includes __repr__ showing its config-relevant parameters.
 """
 
 
-
 import enum
 from datetime import datetime
 from typing import Dict, List, Optional
